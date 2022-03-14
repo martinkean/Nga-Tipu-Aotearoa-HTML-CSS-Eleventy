@@ -1,6 +1,6 @@
-# Nga-Tipu-Aotearoa-HTML-CSS
+# Ngā Tipu Aotearoa - HTML & CSS
 
-Nga Tipu Aotearoa - Static HTML and CSS with a little bit of Javascript.
+Ngā Tipu Aotearoa - Static HTML and CSS with a little bit of Javascript.
 
 How to use these files:
 1. Got to the green CODE button
