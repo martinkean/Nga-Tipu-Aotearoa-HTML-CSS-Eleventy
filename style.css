@@ -12,9 +12,10 @@
   004.  NAVIGATION MENU
   005.  MAIN PAGE LAYOUT
   006.  CARDS LAYOUT
-  007.  PLANT PAGE LAYOUT
-  008.  CONTACT FORM
-  009.  PAGE FOOTER
+  007.  PAGE LAYOUT
+  008.  PLANT PAGE LAYOUT
+  009.  CONTACT FORM
+  010.  PAGE FOOTER
 
   (to jump to any section of the Contents, use the section number (e.g. 002) in 'Find', Cmd-F)
 
@@ -115,6 +116,7 @@
   html {
       --dark-green-text: #13381f;
       --light-green-background: #f1f8f5;
+      --page-card-background: #b2d8c7;
       --beige-page-background: #edece2;
       --slide-out-menu-background: rgba(233, 240, 234, 0.93);
       --footer-background: #173826;
@@ -346,10 +348,35 @@ main {
     font-size: .7rem;
     margin-bottom: 1rem;
 }
+    /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
-  /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+      007.  PAGE LAYOUT
 
-      007.  PLANT PAGE LAYOUT
+    = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+    .page__card {
+      padding: 2rem;
+      margin: 0 2rem 2rem 2rem;
+      min-height: 500px;
+      background-color: var(--page-card-background);
+    }
+
+    .page__card h2 {
+      color: var(--dark-green-text);
+      font-weight: 400;
+      font-size: 2.6em;
+      /* margin-bottom: .4rem; */
+    }
+  
+    .page__card h3 {
+      font-weight: 300;
+      font-size: 2em;
+      /* margin-bottom: .4rem; */
+    }
+
+    /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+      008.  PLANT PAGE LAYOUT
 
     = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
@@ -462,7 +489,7 @@ main {
 
     /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
-    008.  CONTACT FORM
+    009.  CONTACT FORM
 
     = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
@@ -564,7 +591,7 @@ main {
 
     /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
-    009.  PAGE FOOTER
+    010.  PAGE FOOTER
 
     = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
