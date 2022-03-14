@@ -7,3 +7,6 @@ How to use these files:
 2. Choose: 'Open with Github Desktop'
 3. OPEN in Visual Studio Code
 4. CUSTOMISE with your own typography, colours, and layout.
+
+This will be your own static HTML/CSS website, that you can craft into an amazing interactive experience for your audience.
+The next step after that will be adding a CMS.
