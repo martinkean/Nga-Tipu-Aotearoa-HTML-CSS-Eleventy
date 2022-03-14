@@ -1,4 +1,4 @@
-# Ngā Tipu Aotearoa - HTML & CSS
+# Ngā Tipu Aotearoa - HTML & CSS Template for ADT1 Web
 
 Ngā Tipu Aotearoa - Static HTML and CSS with a little bit of Javascript.
 
