@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="mi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Poppins - Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome - icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- my css -->
+  <link rel="stylesheet" href="style.css">
+  <title>Ng&amacr; Tipu Aotearoa - Beech species</title>
+</head>
+<body>
+    <main>
+
+      <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+          HEADER & NAVIGATION
+    
+        = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+        
+      <header>
+        <h1>Ng&amacr; Tipu Aotearoa</h1>
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html" class="current-page">Home</a>
+            <a href="news.html" class="current-page">News</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </nav>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </header>
+
+      <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+          PAGE ARTICLE
+    
+        = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+        <article class="page__card">
+
+          <h2 class="plantpage__card__desc__h2">News</h2>
+
+          <h3 class="plantpage__card__desc__h3">Recent news items below.</h3>
+          
+        </article>
+
+      <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+          FOOTER
+    
+        = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+          <footer>
+            <p>
+              The Plant Names Database lists over 46,000 names and is a primary source of information for Ngā Tipu o Aotearoa - New Zealand Plants. The purpose of the New Zealand Plant Names Database is to provide an authoritative record of the scientific names, taxonomic concepts (i.e., synonymies), and biostatus for the lichens, liverworts, mosses, ferns, freshwater algae and seed plants in New Zealand. It also records the associated literature, vernacular and Māori names, as well as recently published keys and descriptions for some taxa. Editorial work on the Plant Names Database is ongoing and as new treatments, taxa and naturalisations are published these are added to the database.
+            </p>
+            <div class="footer-grid">
+        
+              <article class="footer__menu">
+                <h2 class="footer__menu__heading">
+                  Identification
+                </h2>
+                <ul class="footer__menu__list">
+                  <li><a href="#">What is this bug?</a></li>
+                  <li><a href="#">Invertebrates</a></li>
+                  <li><a href="#">Plants</a></li>
+                  <li><a href="#">Fungi</a></li>
+                </ul>
+              </article>
+        
+              <article class="footer__menu">
+                <h2 class="footer__menu__heading">
+                  Resources
+                </h2>
+                <ul class="footer__menu__list">
+                  <li><a href="#">Collections</a></li>
+                  <li><a href="#">Databases</a></li>
+                  <li><a href="#">Mapping</a></li>
+                </ul>
+              </article>
+        
+              <article class="footer__menu">
+                <h2 class="footer__menu__heading">
+                  Education
+                </h2>
+                <ul class="footer__menu__list">
+                  <li><a href="#">Teaching</a></li>
+                  <li><a href="#">Learning</a></li>
+                </ul>
+              </article>
+        
+              <article class="footer__menu">
+                <h2 class="footer__menu__heading">
+                  Other links
+                </h2>
+                <ul class="footer__menu__list">
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Contact us</a></li>
+                  <li><a href="#">Our people</a></li>
+                  <li><a href="#">Terms & conditions</a></li>
+                  <li><a href="#">Privacy statement</a></li>
+                </ul>
+              </article>
+        
+            </div>
+        
+            <div class="footer__site-details">
+              <p>Copyright Ngā Tipu Aotearoa &copy; 2022.</p>
+            </div>
+          </footer>
+         
+          </main>
+
+          <script>
+            function toggleMenu() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+
+</body>
+</html>

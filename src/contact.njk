@@ -1,0 +1,47 @@
+---
+title: Contact
+layout: 'base.njk'
+---
+      <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+          CONTACT FORM
+    
+        = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+            
+            <form name="contact" method="POST" data-netlify="true" class="contact-form" action="/success.html">
+                <input type="hidden" name="form-name" value="contact">
+
+                <h3 class="contact-form__heading">Contact us</h3>
+                <p class="contact-form__name">
+                    <label>Your Name: </label><br><input type="text" name="name" placeholder="Name" required autofocus/>  
+                </p>
+                <p class="contact-form__email">
+                    <label>Your Email: </label><br><input type="email" name="email" placeholder="Email" required/>
+                </p>
+                <p class="contact-form__role">
+                    <label>Your Role: </label><br><select name="role[]" placeholder="Select from list">
+                        <option value="leader">Leader</option>
+                        <option value="follower">Follower</option>
+                    </select>
+                </p>
+                <p class="contact-form__pwd">
+                    <label for="pwd">Password:</label><br><input type="password" id="pwd" name="pwd" placeholder="Password">
+                </p>
+                <p class="contact-form__message">
+                    <label>Message: </label><br><textarea name="message" rows="7" cols="60" placeholder="Type your message. . ."></textarea>
+                </p>
+                <p class="contact-form__browser">
+                    <label>What browser are you using?</label><br>
+                    <input list="browsers"  placeholder="Choose from list">
+                    <datalist id="browsers">
+                        <option value="Internet Explorer">
+                        <option value="Firefox">
+                        <option value="Chrome">
+                        <option value="Opera">
+                        <option value="Safari">
+                    </datalist>
+                </p>
+                <p class="contact-form__submit">
+                    <button type="submit">Send</button>
+                </p>
+            </form>

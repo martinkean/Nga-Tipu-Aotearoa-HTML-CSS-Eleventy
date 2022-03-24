@@ -1,0 +1,24 @@
+{
+  "name": "nga-tipu-aotearoa-html-css-eleventy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinkean/Nga-Tipu-Aotearoa-HTML-CSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinkean/Nga-Tipu-Aotearoa-HTML-CSS/issues"
+  },
+  "homepage": "https://github.com/martinkean/Nga-Tipu-Aotearoa-HTML-CSS#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}

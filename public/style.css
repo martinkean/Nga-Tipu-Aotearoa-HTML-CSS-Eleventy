@@ -1,0 +1,646 @@
+/*  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+  Author: Your name here
+  Date: creation date
+
+  CONTENTS:
+  ________
+
+  001.  CSS RESET
+  002.  GENERAL STYLES
+  003.  HEADER
+  004.  NAVIGATION MENU
+  005.  MAIN PAGE LAYOUT
+  006.  CARDS LAYOUT
+  007.  PAGE LAYOUT
+  008.  PLANT PAGE LAYOUT
+  009.  CONTACT FORM
+  010.  PAGE FOOTER
+
+  (to jump to any section of the Contents, use the section number (e.g. 002) in 'Find', Cmd-F)
+
+  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+  001. CSS RESET - source: https://piccalil.li/blog/a-modern-css-reset
+
+  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+  /* Box sizing rules */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  /* Remove default margin */
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  figure,
+  blockquote,
+  dl,
+  dd {
+    margin: 0;
+  }
+
+  /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+  ul:where([role="list"]),
+  ol:where([role="list"]) {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Set core root defaults */
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
+
+  /* Set core body defaults */
+  body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+  }
+
+  /* A elements that don't have a class get default styles */
+  a:not([class]) {
+    text-decoration-skip-ink: auto;
+  }
+
+  /* Make images easier to work with */
+  img,
+  picture {
+    max-width: 100%;
+    display: block;
+  }
+
+  /* Inherit fonts for inputs and buttons */
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+  @media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+    /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+    002.  GENERAL STYLES
+
+    = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  html {
+      --dark-green-text: #13381f;
+      --light-green-background: #f1f8f5;
+      --page-card-background: #b2d8c7;
+      --beige-page-background: #edece2;
+      --slide-out-menu-background: rgba(233, 240, 234, 0.93);
+      --footer-background: #173826;
+      --off-white: #fcfcf5;
+      --description-text: #8c8e8d;
+      --light-silver: #fcfcfa;
+  }
+
+  body {
+      font-family: 'Poppins', sans-serif;
+      color: #1d1d1b;
+      background-color: var(--beige-page-background);
+  }
+
+    /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+    003.  HEADER
+
+    = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+    header {
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: var(--light-green-background);
+      padding: 2rem 0 2rem 2rem;
+      min-height: 7em;
+    }
+    
+    header h1 {
+        color: var(--dark-green-text);
+        font-weight: 600;
+    }
+  
+    /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+  
+    004.  NAVIGATION MENU
+
+    Responsive menu adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+  
+    = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+  
+  .topnav {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1rem;
+  }
+  
+  .topnav a {
+    color: var(--dark-green-text);
+    text-decoration: none;
+    font-size: 1.15em;
+  }
+  
+  .topnav a:hover {
+    text-decoration: underline;
+  }
+  
+  .topnav a.current-page {
+    font-weight: 600;
+  }
+  
+  .icon {
+    position: absolute;
+    display: none;
+    color: var(--dark-green-text);
+    font-size: 2em;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 40em) {
+    header {
+      padding: 2rem 0 2rem 1rem;
+      height: 4em;
+    }
+    .topnav {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0.7em;
+    }
+    .topnav a { display: none; }
+    .icon {
+      float: right;
+      display: block;
+      top: 1em;
+      right: 1em;
+    }
+  }
+  
+  @media screen and (max-width: 40em) {
+      header {
+        padding: 2rem 0 2rem 1rem;
+        height: 4em;
+    }
+    .topnav.responsive {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 40vw;
+      margin-top: 0;
+      padding: 6em 2em 4em 2em;
+      background-color: var(--slide-out-menu-background);
+    }
+    .icon {
+      position: absolute;
+      top: 1em;
+      right: 1em;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: right;
+    }
+  }
+
+  @media screen and (max-width: 26em) {
+    header h1 {
+      max-width: 300px;
+      line-height: 100%;
+    }
+    header {
+      height: 7.7em;
+      padding-bottom: 0;
+    }
+  }
+
+  /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+  005.  MAIN PAGE LAYOUT
+
+  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+main {
+    max-width: 1200px;
+    background-color: var(--light-green-background);
+    margin: 0 auto;
+}
+
+.introduction {
+    background-color: var(--off-white);
+    padding: 2rem;
+}
+
+.introduction h2 {
+    color: var(--dark-green-text);
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.introduction p {
+    color: var(--dark-green-text);
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.readmore-button {
+    background-color: #13632e;
+    border: none;
+    color: var(--off-white);
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 1rem;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+    transition: all .3s;
+    border-radius: 5px;
+  }
+  .readmore-button:hover {
+    background-color: green;
+    color: var(--light-green-background);
+    box-shadow: none;
+  }
+  .readmore-button:active {
+    box-shadow: inset 0 2px 15px rgba(0, 0, 0, .3);
+  }
+
+    /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+      006.  CARDS LAYOUT
+
+    = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+  @supports (display: grid) {
+    .plants__grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        grid-gap: 2rem;
+        margin: 2rem;
+      } }
+
+  .plant__item {
+    text-align: center;
+    background-color: var(--light-green-background);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+    padding: 2rem 2rem 1.4rem 2rem;
+    transition: box-shadow .3s;
+  }
+
+  .plant__item:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+
+  .plant__item__image {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .plant__item img {
+    width: 100%;
+  }
+
+  .plant__name {
+    margin-top: .8rem;
+    margin-bottom: .4rem;
+  }
+
+  .plant__name a {
+    color: var(--dark-green-text);
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+  .plant__name a:hover {
+    text-decoration: underline;
+  }
+
+  .plant__desc {
+    color: var(--description-text);
+    font-weight: 400;
+    font-size: .7rem;
+    margin-bottom: 1rem;
+}
+    /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+      007.  PAGE LAYOUT
+
+    = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+    .page__card {
+      padding: 2rem;
+      margin: 0 2rem 2rem 2rem;
+      min-height: 500px;
+      background-color: var(--page-card-background);
+    }
+
+    .page__card h2 {
+      color: var(--dark-green-text);
+      font-weight: 400;
+      font-size: 2.6em;
+      /* margin-bottom: .4rem; */
+    }
+  
+    .page__card h3 {
+      font-weight: 300;
+      font-size: 2em;
+      /* margin-bottom: .4rem; */
+    }
+
+    /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+      008.  PLANT PAGE LAYOUT
+
+    = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+    .plantpage__card__image { grid-area: one; }
+    .plantpage__card__desc__h2 { grid-area: two; }
+    .plantpage__card__desc__h3 { grid-area: three; }
+    .plantpage__card__desc__intro { grid-area: four; }
+    .block-one { grid-area: five; }
+    .block-two { grid-area: six; }
+
+  @supports (display: grid) {
+    .plantpage__card {
+        display: grid;
+        gap: 1.5rem;
+        grid-auto-columns: 1fr;
+        grid-template-areas: 
+          'one two'
+          'one three'
+          'four .'
+          'five six';
+        padding-block: 2rem;
+        width: min(95%, 70em);
+        margin-inline: auto;
+    }
+  }
+
+  @media screen and (max-width: 54.6875em) {
+      .plantpage__card {
+        grid-template-areas: 
+          'two'
+          'one'
+          'three'
+          'four'
+          'five'
+          'six';
+        margin-left: 1em;
+    }
+  }
+
+  .plantpage__card h2 {
+    color: var(--dark-green-text);
+    font-weight: 400;
+    font-size: 2.6em;
+    /* margin-bottom: .4rem; */
+  }
+
+  .plantpage__card h3 {
+    font-weight: 300;
+    font-size: 2em;
+    /* margin-bottom: .4rem; */
+  }
+
+  .plantpage__card h4 {
+    font-weight: 500;
+    font-size: 1.3em;
+    /* margin: 2rem 0 .5rem 0; */
+  }
+
+  .plantpage__card b {
+    font-weight: 600;
+  }
+
+  .plantpage__card__desc {  
+    color: var(--dark-green-text);
+    font-weight: 400;
+    font-size: .9rem;
+    /* margin-bottom: 1rem; */
+    max-width: 24rem;
+  }
+  .plantpage__card__desc ul {
+    list-style-type: none;
+  }
+
+  .plantpage__card__desc ul li {
+    padding-left: 1rem;
+    background-image: url(images/list-image.svg);
+    background-position: 0 .28rem;
+    background-size: .7rem .7rem;
+    background-repeat: no-repeat;
+    /* margin: .3rem 0; */
+  }
+
+  .plantpage__card__image {
+    /* margin-bottom: 1rem; */
+    width: 100%;
+    max-width: 24rem;
+  }
+
+  .next-button {
+    background-color: var(--dark-green-text);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 0;
+    font-size:26px;
+    color: var(--off-white);
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .next-button i {
+      margin-left: .2rem;
+  }
+
+  .next-button:hover {
+    background-color: var(--dark-green-text);
+  }
+
+    /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+    009.  CONTACT FORM
+
+    = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+    .contact-form__heading { grid-area: c1; }
+    .contact-form__name { grid-area: c2; }
+    .contact-form__email { grid-area: c3; }
+    .contact-form__role { grid-area: c4; }
+    .contact-form__pwd { grid-area: c5; }
+    .contact-form__message { grid-area: c6; }
+    .contact-form__browser { grid-area: c7; }
+    .contact-form__submit { grid-area: c8; }
+
+    .contact-form {
+      display: grid;
+      gap: 1.5rem;
+      grid-auto-columns: 1fr;
+      grid-template-areas: 
+        'c1 .'
+        'c2 c3'
+        'c4 c7'
+        'c5 .'
+        'c6 .'
+        'c8 .';
+      padding-block: 2rem;
+      width: min(95%, 70em);
+      margin-inline: auto;
+    }
+
+    .contact-form input, .contact-form select, .contact-form textarea {
+      width: 20.4rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      padding: 0 1.4rem;
+      box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+      background-color: var(--light-silver);
+      color: green;
+    }
+    .contact-form input, .contact-form select {
+      height: 2.8rem;
+      width: 30em;
+    }
+
+    .contact-form__submit button {
+        background-color: #13632e;
+        border: none;
+        color: var(--off-white);
+        padding: 7px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.2rem;
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+        transition: all .3s;
+        border-radius: 5px;
+      }
+      .contact-form__submit button:hover {
+        background-color: green;
+        color: var(--light-green-background);
+        box-shadow: none;
+      }
+      .contact-form__submit button:active {
+        box-shadow: inset 0 2px 15px rgba(0, 0, 0, .3);
+      }
+
+    .contact-form__heading {
+      color: var(--dark-green-text);
+      font-weight: 400;
+      font-size: 2.6em;
+    }
+
+    .contact-form label {
+      min-width: 100rem;
+    }
+
+    @media screen and (max-width: 65.875em) {
+      .contact-form {
+        display: grid;
+        grid-template-areas: 
+          'c1'
+          'c2'
+          'c3'
+          'c4'
+          'c5'
+          'c6'
+          'c7'
+          'c8';
+        margin-left: 1em;
+      }
+      .contact-form input, .contact-form select, .contact-form textarea {
+        width: 90vw;
+      }
+    }
+
+    .success-page {
+      margin: 5vw;
+    }
+
+    /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+    010.  PAGE FOOTER
+
+    = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+    footer {
+      background-color: var(--footer-background);
+      padding: 2rem;
+      color: var(--off-white);
+    }
+
+    footer p {
+      font-size: .8rem;
+    }
+
+  @supports (display: grid) {
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 2rem;
+  }
+}
+
+  .footer__menu {
+    padding: 2rem;
+  }
+
+  .footer__menu__heading {
+      font-weight: 600;
+      font-size: 1rem;
+  }
+
+  ul.footer__menu__list {
+    list-style-type: none;
+}
+
+ul.footer__menu__list li a {
+    text-decoration: none;
+    color: var(--off-white);
+}
+
+ul.footer__menu__list li a:hover {
+    text-decoration: underline;
+}
+
+/* = = =  E N D = = = */

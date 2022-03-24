@@ -1,0 +1,47 @@
+---
+title: Ngā Tipu Aotearoa
+layout: 'base.njk'
+---
+
+      <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+          INTRODUCTION OR BANNER
+        = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+      <article class="introduction">
+        <h2>
+          Ng&amacr; Tipu Aotearoa &ndash; New Zealand Plants
+        </h2>
+        <p>
+          Ngā Tipu Aotearoa provides access to information on plant taxa that occur in New Zealand. The website combines data from the Plant Names Database and the Allan Herbarium Specimen Database &ndash; providing access to information on the scientific and vernacular names, synonyms, distribution and collection data, keys, descriptions and images. It currently includes the data for the seed plants, mosses, ferns, liverworts, hornworts, lichens and freshwater algae.
+        </p>
+        <a href="#" class="readmore-button">
+          Continue reading &hellip;
+        </a>
+      </article>
+
+      <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+          GRID LAYOUT
+        = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+    <section role="list" class="plants__grid">
+
+        {%- for post in collections.post | reverse -%}
+
+            <article class="plant__item">
+                <div>
+                    <a href="{{ post.url }}"><img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}"></a>
+                </div>
+                <h2 class="plant__name"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+                <p class="plant__desc">{{ post.data.description }}</p>
+                <a href="{{ post.url }}" class="readmore-button">
+                    Read more &hellip;
+                </a>
+            </article>
+
+        {%- endfor -%}
+
+    </section>
+
+                {# <a href="{{ post.url }}" class="next-button">
+                    <i class="fa fa-angle-right"></i>
+                </a> #}
