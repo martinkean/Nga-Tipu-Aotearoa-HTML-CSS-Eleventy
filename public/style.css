@@ -145,9 +145,10 @@
       min-height: 7em;
     }
     
-    header h1 {
+    header h1 a {
         color: var(--dark-green-text);
         font-weight: 600;
+        text-decoration: none;
     }
   
     /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

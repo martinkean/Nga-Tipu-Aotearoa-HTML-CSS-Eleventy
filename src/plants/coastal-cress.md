@@ -5,11 +5,8 @@ date: 2022-03-10
 image: /images/lepidium-oleraceum-565.jpg
 imageAlt: Lepidium oleraceum - Cook's scurvy grass
 description: The coastal cress is one of New Zealand's lesser-known endangered species, but there is considerable concern about the decline of this plant.
+introduction: One sub-species is even part of conservation folklore. Lepidium oleraceum was known to be abundant during the voyages of James Cook in the eighteenth century, when it was ingested to prevent scurvy. While Cook was able to collect large quantities of the plant, few botanists have had the good fortune to discover this species in recent years.
 ---
-
-The coastal cress is one of New Zealand's lesser-known endangered species, but there is considerable concern about the decline of this plant.
-
-One sub-species is even part of conservation folklore. Lepidium oleraceum was known to be abundant during the voyages of James Cook in the eighteenth century, when it was ingested to prevent scurvy. While Cook was able to collect large quantities of the plant, few botanists have had the good fortune to discover this species in recent years.
 
 ## Quick facts
 

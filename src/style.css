@@ -145,9 +145,10 @@
       min-height: 7em;
     }
     
-    header h1 {
+    header h1 a {
         color: var(--dark-green-text);
         font-weight: 600;
+        text-decoration: none;
     }
   
     /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
@@ -336,10 +337,18 @@ main {
   }
 
   .plant__name {
-    color: var(--dark-green-text);
-    font-weight: 400;
     margin-top: .8rem;
     margin-bottom: .4rem;
+  }
+
+  .plant__name a {
+    color: var(--dark-green-text);
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+  .plant__name a:hover {
+    text-decoration: underline;
   }
 
   .plant__desc {

@@ -5,11 +5,8 @@ date: 2022-03-11
 image: /images/cabbage-tree-1920.jpg
 imageAlt: Cabbage tree/tī kōuka Image - Travis Wiens
 description: The cabbage tree is one of the most distinctive trees in the New Zealand landscape, especially on farms. They grow all over the country, but prefer wet, open areas like swamps.
+introduction: Growing 12 to 20 metres high, cabbage trees (*Cordyline australis*) have long narrow leaves that may be up to a metre long. It has lovely scented flowers in early summer, which turn into bluish-white berries that birds love to eat. As the plant gets old, the stems may die but new shoots grow from any part of the trunk. The bark is thick and tough like cork, and a huge fleshy taproot anchors the tree firmly into the ground.
 ---
-
-Growing 12 to 20 metres high, cabbage trees (*Cordyline australis*) have long narrow leaves that may be up to a metre long. It has lovely scented flowers in early summer, which turn into bluish-white berries that birds love to eat.
-
-As the plant gets old, the stems may die but new shoots grow from any part of the trunk. The bark is thick and tough like cork, and a huge fleshy taproot anchors the tree firmly into the ground.
 
 ## Quick facts
 * The trunk of the cabbage tree is so fire-resistant that early European settlers used it to make chimneys for their huts. Conveniently, too, the leaves made fine kindling. They also brewed beer from the root.

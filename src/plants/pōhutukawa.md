@@ -3,13 +3,12 @@ title: Pōhutukawa
 author: Martin Kean
 date: 2022-03-07
 image: /images/pohutukawa-stony-bay-886.jpg
-imageAlt: Northern pōhutukawa at Stony Bay Image - Tahu Taylor-Koolen | DOC
+imageAlt: Northern pōhutukawa at Stony Bay
 description: Pōhutukawa is New Zealand's Christmas tree, and holds a prominent place in Maori mythology. Although the fortunes of pōhutukawa and rata have changed for the better, they are still threatened by people and pests.
+introduction: The blazing red flowers of pōhutukawa around Christmas time have earned this tree the title of New Zealand's Christmas tree. Pōhutukawa and rātā belong to the genus Metrosideros. In New Zealand, this genus is represented by two pōhutukawa (mainland and Kermadec), six species of rātā vine, a related shrub, and three tree rātā.
 ---
 
 ## New Zealand's Christmas tree
-
-The blazing red flowers of pōhutukawa around Christmas time have earned this tree the title of New Zealand's Christmas tree. Pōhutukawa and rātā belong to the genus Metrosideros. In New Zealand, this genus is represented by two pōhutukawa (mainland and Kermadec), six species of rātā vine, a related shrub, and three tree rātā.
 
 Mainland pōhutukawa (M. excelsa) occurs naturally in the upper half of the North Island (north of New Plymouth and Gisborne) although it grows from one end of the country to the other. It is easily distinguished from rātā by the hairs on the underside of the leaves.
 

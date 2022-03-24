@@ -33,6 +33,7 @@ layout: 'base.njk'
                 </div>
                 <h2 class="plant__name"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
                 <p class="plant__desc">{{ post.data.description }}</p>
+                <p class="plant__desc">{{ post.date | postDate }}</p>
                 <a href="{{ post.url }}" class="readmore-button">
                     Read more &hellip;
                 </a>

@@ -5,11 +5,8 @@ date: 2022-03-12
 image: /images/kowhai-flowers-alex-schwab-1920.png
 imageAlt: Kōwhai flowers
 description: The kōwhai is one of the best known native trees in New Zealand and it’s our unofficial national flower.
+introduction: They are best known for their brilliant yellow flowers that appear in profusion in Spring and stand out among the forest greenery. We love to have kōwhai in our gardens. Kōwhai imagery is popular in art works and has been used on postage stamps and coins.
 ---
-
-### The kōwhai is one of the best known native trees in New Zealand and it’s our unofficial national flower.
-
-They are best known for their brilliant yellow flowers that appear in profusion in Spring and stand out among the forest greenery. We love to have kōwhai in our gardens. Kōwhai imagery is popular in art works and has been used on postage stamps and coins.
 
 ## Quick facts
 
@@ -24,14 +21,14 @@ Native birds such as the tui, bellbird, kākā and New Zealand pigeon/kererū/k�
 
 Eight species of kōwhai are now recognised in New Zealand in the genus Sophora. All are endemic to New Zealand.
 
-- *S. chathamica,
-- S. fulvida,
-- S. godleyi,
-- S. longicarinata,
-- S. prostrata,
-- S. microphylla,
-- S. molloyi and
-- S. tetraptera.*
+- *S. chathamica*,
+- *S. fulvida*,
+- *S. godleyi*,
+- *S. longicarinata*,
+- *S. prostrata*,
+- *S. microphylla*,
+- *S. molloyi* and
+- *S. tetraptera*.*
 
 Most species of kōwhai are trees but two species, *S. molloyi* and *S. prostrata*, have a prostrate or bushy growth habit. *S. prostrata* and *S. microphylla* both have a divaricating juvenile habit which, for *S. prostrata*, is retained throughout its life.
 

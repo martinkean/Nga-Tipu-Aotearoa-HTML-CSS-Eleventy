@@ -4,7 +4,8 @@ author: Martin Kean
 date: 2022-03-12
 image: /images/black-beech-565.jpg
 imageAlt: Mountain beech flowers
-description: New Zealand's beech forests are made up of five species of southern beech. Beech forests are the largest remaining indigenous forest type in New Zealand, mainly because beech forests are found on mountainous land not generally regarded as the best for agriculture.
+description: New Zealand's beech forests are made up of five species of southern beech. 
+introduction: Beech forests are the largest remaining indigenous forest type in New Zealand, mainly because beech forests are found on mountainous land not generally regarded as the best for agriculture.
 ---
 
 ## Quick facts

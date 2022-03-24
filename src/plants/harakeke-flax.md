@@ -5,11 +5,8 @@ date: 2022-03-09
 image: /images/red-flax-flowers-phormium-tenax-1920.jpg
 imageAlt: Common flax/harakeke Image - Jimmy Johnson
 description: There are two identified species of flax in New Zealand - common flax (harakeke) and mountain flax (wharariki).
+introduction: We all recognise the tall, green, sword-like leaves of flax that can be found growing throughout New Zealand. Common flax is found throughout the country, especially in wet areas, while mountain flax is found both at higher altitudes and along exposed coastlines.
 ---
-
-We all recognise the tall, green, sword-like leaves of flax that can be found growing throughout New Zealand. 
-
-Common flax is found throughout the country, especially in wet areas, while mountain flax is found both at higher altitudes and along exposed coastlines.
 
 ## Quick facts
 

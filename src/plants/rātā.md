@@ -5,17 +5,14 @@ date: 2022-03-06
 image: /images/southern-rata-enderby-island-hero.jpg
 imageAlt: Southern rata flowers, Enderby Island Image - Jo Hiscock
 description: Rātā trees, along with the pōhutukawa, are one of the best known native trees in New Zealand. Native birds benefit from rātā, but as possum numbers increase the threat to native birds and to rātā has also grown.
+introduction: The rātā and pōhutukawa belong in the myrtle family of trees. Other members include mānuka, kānuka and swamp maire.
 ---
 
 ## Description
 
-The rātā and pōhutukawa belong in the myrtle family of trees. Other members include mānuka, kānuka and swamp maire.
-
-New Zealand has 11 rātā species:
-
 - 3 tree species
 - 1 shrub species
-- 6 climbing rata species (these are vines and do not form trees).
+- 6 climbing rata species (these are vines and do not form trees)
 
 Rātā trees have glossy dark green leaves and trunks that are often gnarled and twisted. However, they are best known for their brilliant red flowers that appear in profusion from November to January, depending on location, and can be seen from some distance away.
 
