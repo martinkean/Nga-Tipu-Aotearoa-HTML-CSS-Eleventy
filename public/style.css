@@ -11,11 +11,12 @@
   003.  HEADER
   004.  NAVIGATION MENU
   005.  MAIN PAGE LAYOUT
-  006.  CARDS LAYOUT
-  007.  PAGE LAYOUT
+  006.  HOME PAGE PLANT CARDS GRID LAYOUT
+  007.  OTHER PAGES LAYOUT
   008.  PLANT PAGE LAYOUT
-  009.  CONTACT FORM
-  010.  PAGE FOOTER
+  009.  NEWS GRID LAYOUT
+  010.  CONTACT FORM
+  011.  PAGE FOOTER
 
   (to jump to any section of the Contents, use the section number (e.g. 002) in 'Find', Cmd-F)
 
@@ -102,7 +103,7 @@
     }
   }
 
-    /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 
     002.  GENERAL STYLES
 
@@ -131,27 +132,27 @@
       background-color: var(--beige-page-background);
   }
 
-    /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 
     003.  HEADER
 
     = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
     header {
-      max-width: 1200px;
-      margin: 0 auto;
-      background-color: var(--light-green-background);
-      padding: 2rem 0 2rem 2rem;
-      min-height: 7em;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--light-green-background);
+    padding: 2rem 0 2rem 2rem;
+    min-height: 7em;
     }
     
     header h1 a {
-        color: var(--dark-green-text);
-        font-weight: 600;
-        text-decoration: none;
+    color: var(--dark-green-text);
+    font-weight: 600;
+    text-decoration: none;
     }
   
-    /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
   
     004.  NAVIGATION MENU
 
@@ -159,149 +160,149 @@
   
     = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
   
-  .topnav {
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0 1rem;
-  }
-  
-  .topnav a {
-    color: var(--dark-green-text);
-    text-decoration: none;
-    font-size: 1.15em;
-  }
-  
-  .topnav a:hover {
-    text-decoration: underline;
-  }
-  
-  .topnav a.current-page {
-    font-weight: 600;
-  }
-  
-  .icon {
-    position: absolute;
-    display: none;
-    color: var(--dark-green-text);
-    font-size: 2em;
-    text-decoration: none;
-  }
-  
-  @media screen and (max-width: 40em) {
-    header {
-      padding: 2rem 0 2rem 1rem;
-      height: 4em;
-    }
     .topnav {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 0.7em;
+      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 1rem;
     }
-    .topnav a { display: none; }
+    
+    .topnav a {
+      color: var(--dark-green-text);
+      text-decoration: none;
+      font-size: 1.15em;
+    }
+    
+    .topnav a:hover {
+      text-decoration: underline;
+    }
+    
+    .topnav a.current-page {
+      font-weight: 600;
+    }
+    
     .icon {
-      float: right;
-      display: block;
-      top: 1em;
-      right: 1em;
+      position: absolute;
+      display: none;
+      color: var(--dark-green-text);
+      font-size: 2em;
+      text-decoration: none;
     }
-  }
-  
-  @media screen and (max-width: 40em) {
+    
+    @media screen and (max-width: 40em) {
       header {
         padding: 2rem 0 2rem 1rem;
         height: 4em;
+      }
+      .topnav {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-gap: 0.7em;
+      }
+      .topnav a { display: none; }
+      .icon {
+        float: right;
+        display: block;
+        top: 1em;
+        right: 1em;
+      }
     }
-    .topnav.responsive {
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 40vw;
-      margin-top: 0;
-      padding: 6em 2em 4em 2em;
-      background-color: var(--slide-out-menu-background);
+    
+    @media screen and (max-width: 40em) {
+        header {
+          padding: 2rem 0 2rem 1rem;
+          height: 4em;
+      }
+      .topnav.responsive {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40vw;
+        margin-top: 0;
+        padding: 6em 2em 4em 2em;
+        background-color: var(--slide-out-menu-background);
+      }
+      .icon {
+        position: absolute;
+        top: 1em;
+        right: 1em;
+      }
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: right;
+      }
     }
-    .icon {
-      position: absolute;
-      top: 1em;
-      right: 1em;
+
+    @media screen and (max-width: 26em) {
+      header h1 {
+        max-width: 300px;
+        line-height: 100%;
+      }
+      header {
+        height: 7.7em;
+        padding-bottom: 0;
+      }
     }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: right;
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+    005.  MAIN PAGE LAYOUT
+
+    = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+    main {
+        max-width: 1200px;
+        background-color: var(--light-green-background);
+        margin: 0 auto;
     }
-  }
 
-  @media screen and (max-width: 26em) {
-    header h1 {
-      max-width: 300px;
-      line-height: 100%;
+    .introduction {
+        background-color: var(--off-white);
+        padding: 2rem;
     }
-    header {
-      height: 7.7em;
-      padding-bottom: 0;
+
+    .introduction h2 {
+        color: var(--dark-green-text);
+        font-weight: 400;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
     }
-  }
 
-  /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+    .introduction p {
+        color: var(--dark-green-text);
+        font-weight: 300;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
 
-  005.  MAIN PAGE LAYOUT
+    .readmore-button {
+        background-color: #13632e;
+        border: none;
+        color: var(--off-white);
+        padding: 7px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 1rem;
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+        transition: all .3s;
+        border-radius: 5px;
+      }
+      .readmore-button:hover {
+        background-color: green;
+        color: var(--light-green-background);
+        box-shadow: none;
+      }
+      .readmore-button:active {
+        box-shadow: inset 0 2px 15px rgba(0, 0, 0, .3);
+      }
 
-  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
-main {
-    max-width: 1200px;
-    background-color: var(--light-green-background);
-    margin: 0 auto;
-}
-
-.introduction {
-    background-color: var(--off-white);
-    padding: 2rem;
-}
-
-.introduction h2 {
-    color: var(--dark-green-text);
-    font-weight: 400;
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-}
-
-.introduction p {
-    color: var(--dark-green-text);
-    font-weight: 300;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-}
-
-.readmore-button {
-    background-color: #13632e;
-    border: none;
-    color: var(--off-white);
-    padding: 7px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 1rem;
-    cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
-    transition: all .3s;
-    border-radius: 5px;
-  }
-  .readmore-button:hover {
-    background-color: green;
-    color: var(--light-green-background);
-    box-shadow: none;
-  }
-  .readmore-button:active {
-    box-shadow: inset 0 2px 15px rgba(0, 0, 0, .3);
-  }
-
-    /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
-
-      006.  CARDS LAYOUT
+      006.  HOME PAGE PLANT CARDS GRID LAYOUT
 
     = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
@@ -359,7 +360,7 @@ main {
 }
     /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
-      007.  PAGE LAYOUT
+      007.  OTHER PAGES LAYOUT
 
     = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
@@ -383,29 +384,47 @@ main {
       /* margin-bottom: .4rem; */
     }
 
-    /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+    .news__articles {
+      padding: 1rem;
+      margin: 0 2rem;
+      min-height: 500px;
+      background-color: #d4ddcc;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    .news__articles h2 {
+      font-weight: 400;
+      font-size: 1.6em;
+    }
+
+    .news__articles h3 {
+      font-weight: 300;
+      font-size: 1em;
+    }
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
       008.  PLANT PAGE LAYOUT
 
     = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
     .plantpage__card__image { grid-area: one; }
-    .plantpage__card__desc__h2 { grid-area: two; }
-    .plantpage__card__desc__h3 { grid-area: three; }
-    .plantpage__card__desc__intro { grid-area: four; }
-    .block-one { grid-area: five; }
-    .block-two { grid-area: six; }
+    .plantpage__title { grid-area: two; }
+    .plantpage__card__desc { grid-area: three; }
+    .plantpage__card__intro { grid-area: four; }
+    .plantpage__content { grid-area: five; }
 
   @supports (display: grid) {
     .plantpage__card {
         display: grid;
-        gap: 1.5rem;
+        gap: 1rem;
         grid-auto-columns: 1fr;
         grid-template-areas: 
           'one two'
+          'one four'
           'one three'
-          'four .'
-          'five six';
+          'five five';
         padding-block: 2rem;
         width: min(95%, 70em);
         margin-inline: auto;
@@ -419,59 +438,105 @@ main {
           'one'
           'three'
           'four'
-          'five'
-          'six';
+          'five';
         margin-left: 1em;
     }
   }
 
-  .plantpage__card h2 {
+  .plantpage__card__image {
+    /* margin-bottom: 1rem; */
+    width: 100%;
+    /* max-width: 24rem; */
+  }
+
+  .plantpage__title {
     color: var(--dark-green-text);
     font-weight: 400;
     font-size: 2.6em;
-    /* margin-bottom: .4rem; */
+    line-height: 110%;
   }
 
   .plantpage__card h3 {
     font-weight: 300;
     font-size: 2em;
-    /* margin-bottom: .4rem; */
-  }
-
-  .plantpage__card h4 {
-    font-weight: 500;
-    font-size: 1.3em;
-    /* margin: 2rem 0 .5rem 0; */
-  }
-
-  .plantpage__card b {
-    font-weight: 600;
+    /* margin-top: 2rem; */
+    margin-bottom: .4rem;
   }
 
   .plantpage__card__desc {  
     color: var(--dark-green-text);
     font-weight: 400;
     font-size: .9rem;
+    margin-top: 0;
     /* margin-bottom: 1rem; */
-    max-width: 24rem;
+    /* max-width: 24rem; */
   }
-  .plantpage__card__desc ul {
+
+  .plantpage__card__intro {  
+    color: var(--dark-green-text);
+    font-weight: 400;
+    font-size: .9rem;
+    /* margin-bottom: 1rem; */
+    /* max-width: 24rem; */
+  }
+
+  .plantpage__content h2 {
+    font-weight: 500;
+    font-size: 1.2em;
+    margin: 2rem 0 .5rem 0;
+  }
+
+  .plantpage__content h2:first-child {
+    margin-top: 0;
+  }
+
+  .plantpage__content p {
+    margin-bottom: .8rem;
+  }
+
+  .plantpage__content h4 {
+    font-weight: 500;
+    font-size: 1.3em;
+    margin: 2rem 0 .5rem 0;
+  }
+
+  .plantpage__content b {
+    font-weight: 600;
+  }
+
+  .plantpage__content ul {
     list-style-type: none;
   }
 
-  .plantpage__card__desc ul li {
+  .plantpage__content ul li {
     padding-left: 1rem;
     background-image: url(images/list-image.svg);
-    background-position: 0 .28rem;
+    background-position: 0 .38rem;
     background-size: .7rem .7rem;
     background-repeat: no-repeat;
-    /* margin: .3rem 0; */
   }
 
-  .plantpage__card__image {
-    /* margin-bottom: 1rem; */
-    width: 100%;
-    max-width: 24rem;
+  .plantpage__content img {
+    width: 40%;
+    max-width: 40rem;
+  }
+
+  .plantpage__content figure {
+    margin: 1rem 0 2rem 0;
+  }
+
+  .plantpage__content figcaption {
+    font-size: .8rem;
+    margin-top: .2rem;
+  }
+
+  .plantpage__content a {
+    color: #03adfc;
+    text-decoration: none;
+  }
+
+  .plantpage__content a:hover {
+    text-decoration: underline  ;
   }
 
   .next-button {
@@ -496,9 +561,78 @@ main {
     background-color: var(--dark-green-text);
   }
 
-    /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
-    009.  CONTACT FORM
+    009.  NEWS GRID LAYOUT
+
+  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+  @supports (display: grid) {
+    .news__grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        grid-gap: 2rem;
+        margin: 2rem;
+      } 
+    }
+
+  .news__item {
+    text-align: center;
+    background-color: var(--light-green-background);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+    padding: 2rem 2rem 1.4rem 2rem;
+    transition: box-shadow .3s;
+  }
+
+  .news__grid .news__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .news__grid .news__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .news__grid .news__title {
+    font-size: 1.4rem;
+    margin-top: .8rem;
+    margin-bottom: .4rem;
+  }
+
+  .news__item:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+
+  .news__item__image {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .news__title a {
+    color: var(--dark-green-text);
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+  .news__title a:hover {
+    text-decoration: underline;
+  }
+
+  .news__intro, .news__desc, .news__date {
+    color: var(--description-text);
+    font-weight: 400;
+    font-size: .7rem;
+    margin-bottom: 1rem;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+    010.  CONTACT FORM
 
     = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
@@ -600,7 +734,7 @@ main {
 
     /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
-    010.  PAGE FOOTER
+    011.  PAGE FOOTER
 
     = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 

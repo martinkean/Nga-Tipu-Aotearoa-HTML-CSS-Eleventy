@@ -4,7 +4,7 @@ author: Martin Kean
 date: 2022-03-07
 image: /images/pohutukawa-stony-bay-886.jpg
 imageAlt: Northern pōhutukawa at Stony Bay
-description: Pōhutukawa is New Zealand's Christmas tree, and holds a prominent place in Maori mythology. Although the fortunes of pōhutukawa and rata have changed for the better, they are still threatened by people and pests.
+description: Pōhutukawa is New Zealand's Christmas tree, and holds a prominent place in Māori mythology. Although the fortunes of pōhutukawa and rata have changed for the better, they are still threatened by people and pests.
 introduction: The blazing red flowers of pōhutukawa around Christmas time have earned this tree the title of New Zealand's Christmas tree. Pōhutukawa and rātā belong to the genus Metrosideros. In New Zealand, this genus is represented by two pōhutukawa (mainland and Kermadec), six species of rātā vine, a related shrub, and three tree rātā.
 ---
 
@@ -22,7 +22,7 @@ Rātā was often respected for its immense size, which provided, among other thi
 
 ## Threats to pōhutukawa and rātā
 
-**Possums**
+#### Possums
 As possum populations have built up in forest areas, there has been a corresponding loss of some of our forest species.
 
 Possums browse a wide range of plants but show strong preferences for some species like rātā and pōhutukawa. 
@@ -31,10 +31,10 @@ Rātā and pōhutukawa trees cannot tolerate sustained possum browsing. A mature
 
 When the browsed trees die back, the canopy, or top layer of the forest, is opened up. This exposes other trees to windthrow and damage from storms, insects, weed invasion, and diseases.
 
-**Myrtle rust**
+#### Myrtle rust
 Pōhutukawa and rātā are members of the Myrtle family. They are all under potential threat from the fungal disease myrtle rust which is now established in New Zealand. 
 
-**Other threats**
+#### Other threats
 Other threats include the following:
 
 - People damage trees by using their branches for firewood, lighting fires under them and parking cars on their roots.

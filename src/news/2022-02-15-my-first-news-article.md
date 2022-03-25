@@ -2,7 +2,7 @@
 title: The February 2022 issue of Trilepidea is now available
 author: Martin Kean
 date: 2022-02-15
-image: /images/news-placeholder.svg
+image: /images/flax.jpg
 imageAlt: News article
 newsIntro: News article place holder description text. News article place holder description text. News article place holder description text. News article place holder description text.
 newsText: Read about chasing the Mt Peel edelweiss (Leucogenes tarahaoa), enhanced flora search on the NZPCN website, Plant of the Month Euchiton ensifer, conference updates and conference sponsors, vegetation of Spit Islands and associated beaches in southwest Fiordland, impact of recent fires at Kaimaumau and Lake Ohia. old man’s beard free Wellington and upcoming events

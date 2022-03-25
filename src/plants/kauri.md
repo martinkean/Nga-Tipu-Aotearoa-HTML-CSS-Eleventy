@@ -3,16 +3,10 @@ title: Kauri
 author: Martin Kean
 date: 2022-03-08
 image: /images/tane-mahuta-hero.jpg
-imageAlt: Tane Mahuta Image - Scott Benjamin
+imageAlt: Tane Mahuta. Image - Scott Benjamin
 description: Kauri are among the world's mightiest trees, growing to over 50 m tall, with trunk girths up to 16 m, and living for over 2,000 years.
 introduction: Kauri dieback disease is a relatively new threat, but we can help reduce its spread by being careful and following the signs when visiting kauri forests.
 ---
-
-<figure>
-    <img src="/images/kauri-waipoua-base-1200.jpg"
-         alt="Base of kauri tree trunk">
-    <figcaption>Base of kauri tree trunk Image: Sabine Bernert</figcaption>
-</figure>
 
 ## Kauri were prolific in the past
 
@@ -28,13 +22,13 @@ The gum too, became essential in the manufacture of varnishes and other resin-ba
 
 More forest was cleared as demand for farmland and timber increased in the early and mid 20th century.
 
-## Pressure to protect kauri forests
-
 <figure>
     <img src="/images/waima-forest-kauri-390.jpg"
          alt="Kauri in Waima Forest">
-    <figcaption>Kauri in Waima Forest. Image: Sarah Wilcox | Creative Commons</figcaption>
+    <figcaption>Kauri in Waima Forest. Image: Sarah Wilcox</figcaption>
 </figure>
+
+## Pressure to protect kauri forests
 
 There are calls for a national park comprising all the substantial scattered remnants of kauri forest. Adolescent trees have straight pole trunks and a distinctive narrow conical crown. As the trees mature the trunk thickens and the lower branches are shed, resulting in the clean, straight trunk of the adult kauri.
 
@@ -65,3 +59,9 @@ There is no known cure for kauri dieback, but we can help reduce its spread by c
 DOC, iwi, regional councils, MPI and local communities are working together to protect our kauri forests through the ‘Kia Toitu He Kauri – Keep Kauri Standing’ programme. 
 
 Our [Kauri Dieback Recreation](https://www.doc.govt.nz/nature/pests-and-threats/diseases/kauri-dieback/) Project aims to control the human spread of the disease on public conservation land.
+
+<figure>
+    <img src="/images/kauri-waipoua-base-1200.jpg"
+         alt="Base of kauri tree trunk">
+    <figcaption>Base of kauri tree trunk. Image: Sabine Bernert</figcaption>
+</figure>

@@ -3,8 +3,8 @@ title: Harakeke/flax
 author: Martin Kean
 date: 2022-03-09
 image: /images/red-flax-flowers-phormium-tenax-1920.jpg
-imageAlt: Common flax/harakeke Image - Jimmy Johnson
-description: There are two identified species of flax in New Zealand - common flax (harakeke) and mountain flax (wharariki).
+imageAlt: Common flax/harakeke. Image - Jimmy Johnson.
+description: There are two identified species of flax in New Zealand — common flax (harakeke) and mountain flax (wharariki).
 introduction: We all recognise the tall, green, sword-like leaves of flax that can be found growing throughout New Zealand. Common flax is found throughout the country, especially in wet areas, while mountain flax is found both at higher altitudes and along exposed coastlines.
 ---
 
@@ -12,7 +12,7 @@ introduction: We all recognise the tall, green, sword-like leaves of flax that c
 
 - Flax is unique to New Zealand and is one of our most ancient plant species. 
 - Flax bushes will often support a large community of animals, providing shelter and an abundant food resource. 
-- Tui, bellbirds/ korimako, saddlebacks/tīeke, short tailed bats/pekapeka, geckos and several types of insects enjoy nectar from the flax flower.
+- Tui, bellbirds/korimako, saddlebacks/tīeke, short tailed bats/pekapeka, geckos and several types of insects enjoy nectar from the flax flower.
 - Flax snails, a rare land snail living only in the Far North, often shelter under flax bushes. These snails don’t eat any part of the flax, but rather they munch on fallen leaves from native broadleaved trees.
 - Harakeke was the name given to this plant by Māori. 
 - The first European traders called it ‘flax’ because its fibres were similar to that of true flax found in other parts of the world.

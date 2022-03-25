@@ -12,7 +12,7 @@ introduction: The rātā and pōhutukawa belong in the myrtle family of trees. O
 
 - 3 tree species
 - 1 shrub species
-- 6 climbing rata species (these are vines and do not form trees)
+- 6 climbing rātā species (these are vines and do not form trees)<br><br>
 
 Rātā trees have glossy dark green leaves and trunks that are often gnarled and twisted. However, they are best known for their brilliant red flowers that appear in profusion from November to January, depending on location, and can be seen from some distance away.
 
@@ -52,9 +52,9 @@ Parkinson’s rātā (*Metrosideros parkinsonii*) is a small tree or shrub that 
 
 In the North island it's restricted to Te Hauturu-o-Toi / Little Barrier Island and Great Barrier Island/Aotea in the North Island. In the South Island you'll find Parkinson’s rātā in northwest Nelson, and the Paparoa Ranges to just north of Hokitika. It's found from sea level to about 920 m.
 
-## Threats to pōhutukawa and rātā
+## Threats to pōhutukawa and rātā:
 
-**Possums**
+#### Possums
 As possum populations have built up in forest areas, there has been a corresponding loss of some of our forest species.
 
 Possums browse a wide range of plants but show strong preferences for some species like rātā and pōhutukawa. 
@@ -63,10 +63,10 @@ Rātā and pōhutukawa trees cannot tolerate sustained possum browsing. A mature
 
 When the browsed trees die back, the canopy, or top layer of the forest, is opened up. This exposes other trees to windthrow and damage from storms, insects, weed invasion, and diseases.
 
-**Myrtle rust**
+#### Myrtle rust
 Pōhutukawa and rātā are members of the Myrtle family. They are all under potential threat from the fungal disease myrtle rust which is now established in New Zealand. 
 
-**Other threats**
+#### Other threats
 Other threats include the following:
 
 - People damage trees by using their branches for firewood, lighting fires under them and parking cars on their roots.

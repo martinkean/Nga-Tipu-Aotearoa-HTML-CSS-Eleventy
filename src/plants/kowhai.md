@@ -12,7 +12,7 @@ introduction: They are best known for their brilliant yellow flowers that appear
 
 * Kōwhai trees have small leaflets and juvenile branches on some species are twisted and tangled. 
 * They grow from a seed in the ground to become a tree up to 25 m high. 
-* * It's found throughout New Zealand in a diverse range of habitats from riparian forests, coastal cliff faces to inland grey scrub communities.
+* It's found throughout New Zealand in a diverse range of habitats from riparian forests, coastal cliff faces to inland grey scrub communities.
 Native birds such as the tui, bellbird, kākā and New Zealand pigeon/kererū/kūkū/kūkupa all benefit from kōwhai trees.
 * Tui and bellbird and New Zealand wood pigeon/kererū/kūkū/kūkupa feast on leaves and flowers – kōwhai are an important seasonal nectar food source for them.
 * Māori hold the tree in high esteem, valuing the durability of its hard wood and its many medicinal properties.
@@ -21,14 +21,14 @@ Native birds such as the tui, bellbird, kākā and New Zealand pigeon/kererū/k�
 
 Eight species of kōwhai are now recognised in New Zealand in the genus Sophora. All are endemic to New Zealand.
 
-- *S. chathamica*,
-- *S. fulvida*,
-- *S. godleyi*,
-- *S. longicarinata*,
-- *S. prostrata*,
-- *S. microphylla*,
-- *S. molloyi* and
-- *S. tetraptera*.*
+*S. chathamica*,
+*S. fulvida*,
+*S. godleyi*,
+*S. longicarinata*,
+*S. prostrata*,
+*S. microphylla*,
+*S. molloyi* and
+*S. tetraptera*.
 
 Most species of kōwhai are trees but two species, *S. molloyi* and *S. prostrata*, have a prostrate or bushy growth habit. *S. prostrata* and *S. microphylla* both have a divaricating juvenile habit which, for *S. prostrata*, is retained throughout its life.
 

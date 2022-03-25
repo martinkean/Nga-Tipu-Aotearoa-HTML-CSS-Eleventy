@@ -22,7 +22,7 @@ The cabbage tree/tī kōuka is common throughout farmland, open places, wetlands
 
 Cabbage tree/tī kōuka grows up to 1000 metres above sea level in anything from wet swampy ground to dry windy hill slopes. The species prefers full sunlight, so it is common on farms and generally uncommon in tracts of continuous forest (although it is common on forest margins).
 
-### Other species
+## Other species
 Aside from tī kōuka, there are four other species found in New Zealand. These are:
 
 - *Cordyline obtecta* – which in New Zealand is only known from the Three Kings, Murimotu and Poor Knights Island groups as well as a small area of North Cape. Until recently this species was known as *C. kaspar* but recent taxonomic opinion is that it is the same species as the earlier named Norfolk Island *C. obtecta*.
