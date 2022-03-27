@@ -2,24 +2,28 @@
 layout: 'base.njk'
 ---
     
-    <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
-        ARTICLE
-      = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+<!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+    SINGLE NEWS ARTICLE - IN FULL
+  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
 
-      <article class="plantpage__card">
-          <h2 class="plantpage__card__desc__h2">{{ title }}</h2>
+  <article class="newspage__card">
+      <h2 class="newspage__title">{{ title }}</h2>
 
-          <figure class="plantpage__card__image">
-            <img  src="{{ image }}" alt="{{ imageAlt }}">
-            <figcaption>
-                {{ imageAlt }}
-            </figcaption>
-          </figure>
+      <figure class="newspage__card__image">
+        <img  src="{{ image }}" alt="{{ imageAlt }}">
+        <figcaption>
+            {{ imageAlt }}
+        </figcaption>
+      </figure>
 
-          <h3 class="plantpage__card__desc__h3">{{ newsIntro }}</h3>
-              
-          <p class="plantpage__card__desc__intro">{{ newsText }}</p>
+      <h3 class="newspage__card__desc">{{ description }}</h3>
 
-          {{ content | safe }}
+      <p class="newspage__card__intro">{{ introduction }}</p>
 
-      </article>
+      <div class="newspage__content">
+
+        {{ content | safe }}
+
+      </div>
+
+  </article>

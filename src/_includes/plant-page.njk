@@ -3,28 +3,28 @@ layout: 'base.njk'
 
 ---
     
-    <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
-        ARTICLE
-      = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+<!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+    ARTICLE
+  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
 
-      <article class="plantpage__card">
-          <h2 class="plantpage__title">{{ title }}</h2>
+  <article class="plantpage__card">
+      <h2 class="plantpage__title">{{ title }}</h2>
 
-          <figure class="plantpage__card__image">
-            <img  src="{{ image }}" alt="{{ imageAlt }}">
-            <figcaption>
-                {{ imageAlt }}
-            </figcaption>
-          </figure>
+      <figure class="plantpage__card__image">
+        <img  src="{{ image }}" alt="{{ imageAlt }}">
+        <figcaption>
+            {{ imageAlt }}
+        </figcaption>
+      </figure>
 
-          <h3 class="plantpage__card__desc">{{ description }}</h3>
+      <h3 class="plantpage__card__desc">{{ description }}</h3>
 
-          <p class="plantpage__card__intro">{{ introduction }}</p>
+      <p class="plantpage__card__intro">{{ introduction }}</p>
 
-          <div class="plantpage__content">
+      <div class="plantpage__content">
 
-            {{ content | safe }}
+        {{ content | safe }}
 
-          </div>
+      </div>
 
-      </article>
+  </article>

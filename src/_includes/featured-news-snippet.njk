@@ -1,0 +1,18 @@
+<!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+    FEATURED NEWS ARTICLE
+
+    This is the featured article that appears at the top of te Nws Page, 'news.njk'
+    This snippet is 'included' in 'news.njk' at line 15
+    = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+        <div class="news__item__image">
+            <a href="{{ post.url }}"><img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}"></a>
+        </div>
+        <div class="featured-news__RHblock">
+            <h2 class="news__title"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+            <p class="news__intro">{{ post.data.newsIntro }}</p>
+            <p class="news__date">{{ post.date | postDate }}</p>
+            <a href="{{ post.url }}" class="readmore-button">
+                Read more &hellip;
+            </a>
+        </div>

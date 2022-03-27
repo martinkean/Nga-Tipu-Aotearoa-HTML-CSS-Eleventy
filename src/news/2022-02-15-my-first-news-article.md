@@ -2,6 +2,7 @@
 title: The February 2022 issue of Trilepidea is now available
 author: Martin Kean
 date: 2022-02-15
+tags: news
 image: /images/flax.jpg
 imageAlt: News article
 newsIntro: News article place holder description text. News article place holder description text. News article place holder description text. News article place holder description text.

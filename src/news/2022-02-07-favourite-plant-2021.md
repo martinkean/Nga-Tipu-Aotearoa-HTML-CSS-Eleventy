@@ -2,6 +2,7 @@
 title: 2021 Favourite Plant Vote candidate profile - Leptinella serrulata
 author: Martin Kean
 date: 2022-02-07
+tags: news
 image: /images/leptinella_serrulata-_waihora_scientific_reserve-kaitorete_spit.jpg
 imageAlt: Leptinella Serrulata
 newsIntro: The 2021 Favourite Native Plant vote will open on 1 October and run for 1 month. In the lead up to the return of this popular vote, NZPCN committee members are profiling some of the plants which they feel need a little more love. For the full article with all the images see issue 210 of Trilepidea.
