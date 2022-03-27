@@ -2,6 +2,14 @@ backend:
   name: git-gateway
   branch: master
 media_folder: "public/images" # Media files will be stored in the repo under public/images
+
+media_library: # Using Cloudinary to manage images
+  name: cloudinary
+  output_filename_only: false
+  config:
+    cloud_name: dnf1xnzg3
+    api_key: 897742946478848
+
 public_folder: "/images" # The src attribute for uploaded media will begin with /images
 collections:
   - name: "news"
@@ -33,6 +41,6 @@ collections:
       - {label: "Tags", name: "tags", widget: "list", default: ["plants"]}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Image caption", name: "imageAlt", widget: "string"}
-      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Description", name: "description", widget: "string"}
       - {label: "Introduction", name: "introduction", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"}
