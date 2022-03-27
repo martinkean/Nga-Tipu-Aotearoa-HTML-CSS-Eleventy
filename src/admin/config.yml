@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: master
+media_folder: "public/images" # Media files will be stored in the repo under public/images
+public_folder: "/images" # The src attribute for uploaded media will begin with /images
+collections:
+  - name: "news"
+    label: "News"
+    folder: "src/news"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "news"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Tags", name: "tags", widget: "list", default: ["news"]}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Image caption", name: "imageAlt", widget: "string"}
+      - {label: "Introduction", name: "newsIntro", widget: "string"}
+      - {label: "News - second introduction", name: "newsText", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
