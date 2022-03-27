@@ -4,7 +4,6 @@ author: Martin Kean
 date: 2022-02-01
 tags:
   - news
-  - featured
 image: /images/forest-restoration.jpg
 imageAlt: Community planting project at Bushy Point, Southland. Photo - Jesse Bythell
 newsIntro: Te Uru Rākau – New Zealand Forest Service has commissioned Forbes
