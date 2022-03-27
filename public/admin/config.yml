@@ -17,6 +17,6 @@ collections:
       - {label: "Tags", name: "tags", widget: "list", default: ["news"]}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Image caption", name: "imageAlt", widget: "string"}
-      - {label: "Introduction", name: "newsIntro", widget: "string"}
-      - {label: "News - second introduction", name: "newsText", widget: "string"}
+      - {label: "Introduction", name: "newsIntro", widget: "markdown"}
+      - {label: "News - second introduction", name: "newsText", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"}
