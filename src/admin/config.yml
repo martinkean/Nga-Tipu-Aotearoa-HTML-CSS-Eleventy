@@ -9,11 +9,6 @@ media_library: # Using Cloudinary to manage images
   config:
     cloud_name: dnf1xnzg3
     api_key: 897742946478848
-    default_transformations:
-      - fetch_format: auto
-        width: auto
-        quality: auto
-        crop: fill
 
 public_folder: "/images" # The src attribute for uploaded media will begin with /images
 collections:
