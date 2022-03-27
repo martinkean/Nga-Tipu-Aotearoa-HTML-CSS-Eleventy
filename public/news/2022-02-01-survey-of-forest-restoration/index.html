@@ -5,6 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Enable Netlify Identity widget - this is for the CMS -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  <!-- Site icon, the image that appears in the browser tab -->
   <link rel="icon" type="image/x-icon" href="/images/favicon.png">
 
   <!-- Poppins - Google font -->
@@ -18,10 +23,12 @@
   <!-- my css -->
   <link rel="stylesheet" href="/style.css">
 
+  <!-- Site Title - the appears in your browser tab -->
   <title>Survey of Actual Forest Restoration Costs</title>
 </head>
 
 <body>
+    <!-- These next four lines below are the whole page! -->
     <main>
               <!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
@@ -144,6 +151,7 @@
   </footer>
     </main>
 
+    <!-- This bit of Javascript helps with the responsive Nav menu -->
     <script>
     function toggleMenu() {
         var x = document.getElementById("myTopnav");
@@ -154,5 +162,19 @@
         }
     }
     </script>
+
+    <!-- This bit of Javascript helps with Netlify Identity for the CMS -->
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+
 </body>
 </html>
