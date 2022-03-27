@@ -2,6 +2,7 @@
 title: Coastal cress
 author: Martin Kean
 date: 2022-03-10
+tag: plants
 image: /images/lepidium-oleraceum-565.jpg
 imageAlt: Lepidium oleraceum - Cook's scurvy grass
 description: The coastal cress is one of New Zealand's lesser-known endangered species, but there is considerable concern about the decline of this plant.

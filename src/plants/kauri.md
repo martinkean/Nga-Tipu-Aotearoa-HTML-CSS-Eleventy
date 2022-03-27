@@ -2,6 +2,7 @@
 title: Kauri
 author: Martin Kean
 date: 2022-03-08
+tag: plants
 image: /images/tane-mahuta-hero.jpg
 imageAlt: Tane Mahuta. Image - Scott Benjamin
 description: Kauri are among the world's mightiest trees, growing to over 50 m tall, with trunk girths up to 16 m, and living for over 2,000 years.

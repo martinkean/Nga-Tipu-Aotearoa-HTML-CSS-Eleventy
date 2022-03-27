@@ -2,6 +2,7 @@
 title: Cabbage tree/tī kōuka
 author: Martin Kean
 date: 2022-03-11
+tag: plants
 image: /images/cabbage-tree-1920.jpg
 imageAlt: Cabbage tree/tī kōuka Image - Travis Wiens
 description: The cabbage tree is one of the most distinctive trees in the New Zealand landscape, especially on farms. They grow all over the country, but prefer wet, open areas like swamps.

@@ -9,7 +9,7 @@ layout: 'base.njk'
 
   <div class="featured-news">
     <h2>Featured news</h2>
-    <section class="featured-news-grid">
+    <section role="list" class="featured-news-grid">
 
     {%- for post in collections.featured | reverse -%}
       {% include 'featured-news-snippet.njk' %}

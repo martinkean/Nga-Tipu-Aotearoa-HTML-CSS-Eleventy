@@ -2,6 +2,7 @@
 title: Beech species
 author: Martin Kean
 date: 2022-03-12
+tag: plants
 image: /images/black-beech-565.jpg
 imageAlt: Mountain beech flowers
 description: New Zealand's beech forests are made up of five species of southern beech. 

@@ -2,6 +2,7 @@
 title: Kōwhai
 author: Martin Kean
 date: 2022-03-12
+tag: plants
 image: /images/kowhai-flowers-alex-schwab-1920.png
 imageAlt: Kōwhai flowers
 description: The kōwhai is one of the best known native trees in New Zealand and it’s our unofficial national flower.

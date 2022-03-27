@@ -2,6 +2,7 @@
 title: Harakeke/flax
 author: Martin Kean
 date: 2022-03-09
+tag: plants
 image: /images/red-flax-flowers-phormium-tenax-1920.jpg
 imageAlt: Common flax/harakeke. Image - Jimmy Johnson.
 description: There are two identified species of flax in New Zealand — common flax (harakeke) and mountain flax (wharariki).
