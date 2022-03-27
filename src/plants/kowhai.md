@@ -1,12 +1,16 @@
 ---
 title: Kōwhai
 author: Martin Kean
-date: 2022-03-12
-tag: plants
+date: 2022-03-09T11:00:00.000Z
 image: /images/kowhai-flowers-alex-schwab-1920.png
 imageAlt: Kōwhai flowers
-description: The kōwhai is one of the best known native trees in New Zealand and it’s our unofficial national flower.
-introduction: They are best known for their brilliant yellow flowers that appear in profusion in Spring and stand out among the forest greenery. We love to have kōwhai in our gardens. Kōwhai imagery is popular in art works and has been used on postage stamps and coins.
+description: The kōwhai is one of the best known native trees in New Zealand and
+  it’s our unofficial national flower.
+introduction: They are best known for their brilliant yellow flowers that appear
+  in profusion in Spring and stand out among the forest greenery. We love to
+  have kōwhai in our gardens. Kōwhai imagery is popular in art works and has
+  been used on postage stamps and coins.
+tag: plants
 ---
 
 ## Quick facts
