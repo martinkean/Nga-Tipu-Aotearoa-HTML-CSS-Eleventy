@@ -1,5 +1,5 @@
 ---
-title: Kōwhai
+title: Kōwhai plant
 author: Martin Kean
 date: 2022-03-09T11:00:00.000Z
 image: https://res.cloudinary.com/dnf1xnzg3/image/upload/v1647889319/ADT1-Web/kowhai-flowers-alex-schwab-1920_g4u4ko.png
