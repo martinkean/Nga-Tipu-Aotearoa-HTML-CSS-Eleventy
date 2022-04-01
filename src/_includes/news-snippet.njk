@@ -1,4 +1,4 @@
----
+{# ---
 type: post
 eleventyComputed:
   meta:
@@ -6,7 +6,7 @@ eleventyComputed:
       name: "{{ post.data.title }}"
     published: "{{ post.date | iso8601 }}"
     modified: "{% if updateDate %}{{ updateDate | iso8601 }}{% endif %}"
----
+--- #}
 
 <article class="news__item">
     <div class="news__item__image">
