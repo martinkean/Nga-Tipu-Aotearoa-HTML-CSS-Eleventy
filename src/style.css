@@ -141,17 +141,27 @@
     = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
     header {
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: var(--light-green-background);
-    padding: 2rem 0 2rem 2rem;
-    min-height: 7em;
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: var(--light-green-background);
+      padding: 2rem 0 2rem 2rem;
+      min-height: 7em;
+      transition: ease 0.4s;
+    }
+
+    .header--scrolled {
+      height: 40px;
+      min-height: 40px;
+    }
+    
+    .scrollable-area {
+      height: 200vh;
     }
     
     header h1 a {
-    color: var(--dark-green-text);
-    font-weight: 600;
-    text-decoration: none;
+      color: var(--dark-green-text);
+      font-weight: 600;
+      text-decoration: none;
     }
   
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,24 +1,82 @@
+
 <!DOCTYPE html>
-<html lang="mi">
+<html dir="ltr" lang="mi">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <meta name="theme-color" content="#f1f8f5">
+  <link rel="canonical" href="https://nga-tipu-aotearoa-html-css-eleventy.netlify.app/">
+  <meta name="description" content="Ngā Tipu Aotearoa provides access to information on plant taxa that occur in New Zealand.">
+  
+  <!-- Open Graph protocol for social media and browsers -->
+  <meta property="og:site_name" content="Ngā Tipu Aotearoa">
+  <meta property="og:url" content="https://nga-tipu-aotearoa-html-css-eleventy.netlify.app/">
+  <meta property="og:title" content="Ngā Tipu Aotearoa">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Ngā Tipu Aotearoa provides access to information on plant taxa that occur in New Zealand.">
+  <meta property="og:image" content="https://nga-tipu-aotearoa-html-css-eleventy.netlify.app/images/beech-forest-565.jpg" />
+  <meta property="og:image:secure_url" content="https://nga-tipu-aotearoa-html-css-eleventy.netlify.app/images/beech-forest-565.jpg" />
+  <meta property="og:image:width" content="565" />
+  <meta property="og:image:height" content="424" />
+
+  <!-- Twitter meta tag data -->
+  <meta name="twitter:site" content="@">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ngā Tipu Aotearoa">
+  <meta name="twitter:description" content="Ngā Tipu Aotearoa provides access to information on plant taxa that occur in New Zealand.">
+  <meta name="twitter:image" content=" https://nga-tipu-aotearoa-html-css-eleventy.netlify.app/images/beech-forest-565.jpg">
+  <meta name="twitter:image:alt" content="Mountain beech | Ngā Tipu Aotearoa">
+
+  <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "#website",
+      "url": "",
+      "name": "",
+      "description": "",
+      "inLanguage": "mi"
+    },
+    {
+      "@type": "WebPage",
+      "mainEntityOfPage": {
+        "@type": "WebPage"
+      },
+      "isPartOf": {
+        "@id": "#website"
+      },
+      "headline": "News",
+      "description": "",
+      "image": "",
+      "inLanguage": "mi",
+      "publisher": {
+        "@type": "Organization",
+        "name": "",
+        "url": "#organization"
+      }
+    }
+  ]
+}
+  </script>
+
   <!-- Enable Netlify Identity widget - this is for the CMS -->
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
   <!-- Site icon, the image that appears in the browser tab -->
   <link rel="icon" type="image/x-icon" href="/images/favicon.png">
 
   <!-- Poppins - Google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome - icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Font Awesome - icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- my css -->
   <link rel="stylesheet" href="/style.css">
@@ -63,7 +121,7 @@
     = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
 
         <div class="news__item__image">
-            <a href="/news/2022-02-17-more-news/"><img src="/images/cordyline-banksii.jpg" alt="Cordyline Banksii"></a>
+            <a href="/news/2022-02-17-more-news/"><img src="https://res.cloudinary.com/dnf1xnzg3/image/upload/ar_1:1,c_crop/v1648420484/ADT1-Web/cordyline-banksii_pl0pms.webp" alt="Cordyline Banksii"></a>
         </div>
         <div class="featured-news__RHblock">
             <h2 class="news__title"><a href="/news/2022-02-17-more-news/">Notice of New Threat Listing for Vascular Plants</a></h2>
@@ -82,9 +140,19 @@
   <div class="news__articles">
     <h2>News</h2>
     <h3>Recent news items below.</h3>
-    <section class="news__grid"><article class="news__item">
+    <section class="news__grid">---
+type: post
+eleventyComputed:
+  meta:
+    author:
+      name: ""
+    published: ""
+    modified: ""
+---
+
+<article class="news__item">
     <div class="news__item__image">
-        <a href="/news/2022-02-17-more-news/"><img src="/images/cordyline-banksii.jpg" alt="Cordyline Banksii"></a>
+        <a href="/news/2022-02-17-more-news/"><img src="https://res.cloudinary.com/dnf1xnzg3/image/upload/ar_1:1,c_crop/v1648420484/ADT1-Web/cordyline-banksii_pl0pms.webp" alt="Cordyline Banksii"></a>
     </div>
     <h2 class="news__title"><a href="/news/2022-02-17-more-news/">Notice of New Threat Listing for Vascular Plants</a></h2>
     <p class="news__intro"></p>
@@ -92,7 +160,17 @@
     <a href="/news/2022-02-17-more-news/" class="readmore-button">
         Read more &hellip;
     </a>
-</article><article class="news__item">
+</article>---
+type: post
+eleventyComputed:
+  meta:
+    author:
+      name: ""
+    published: ""
+    modified: ""
+---
+
+<article class="news__item">
     <div class="news__item__image">
         <a href="/news/2022-02-15-my-first-news-article/"><img src="/images/flax.jpg" alt="News article"></a>
     </div>
@@ -102,7 +180,17 @@
     <a href="/news/2022-02-15-my-first-news-article/" class="readmore-button">
         Read more &hellip;
     </a>
-</article><article class="news__item">
+</article>---
+type: post
+eleventyComputed:
+  meta:
+    author:
+      name: ""
+    published: ""
+    modified: ""
+---
+
+<article class="news__item">
     <div class="news__item__image">
         <a href="/news/2022-02-07-favourite-plant-2021/"><img src="/images/leptinella_serrulata-_waihora_scientific_reserve-kaitorete_spit.jpg" alt="Leptinella Serrulata"></a>
     </div>
@@ -112,7 +200,17 @@
     <a href="/news/2022-02-07-favourite-plant-2021/" class="readmore-button">
         Read more &hellip;
     </a>
-</article><article class="news__item">
+</article>---
+type: post
+eleventyComputed:
+  meta:
+    author:
+      name: ""
+    published: ""
+    modified: ""
+---
+
+<article class="news__item">
     <div class="news__item__image">
         <a href="/news/2022-02-01-survey-of-forest-restoration/"><img src="/images/forest-restoration.jpg" alt="Community planting project at Bushy Point, Southland. Photo - Jesse Bythell"></a>
     </div>
@@ -214,6 +312,18 @@
         });
       }
     </script>
+<script src='https://assets.codepen.io/16327/gsap-latest-beta.min.js'></script>
+<script src='https://assets.codepen.io/16327/ScrollTrigger.min.js?v=40'></script>
+<script>
+    ScrollTrigger.create({
+    start: 'top -80',
+    end: 99999,
+    toggleClass: {className: 'header--scrolled', targets: '.header'}
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"></script>
 
 </body>
 </html>

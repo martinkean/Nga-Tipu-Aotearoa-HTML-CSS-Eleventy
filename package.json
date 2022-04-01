@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/martinkean/Nga-Tipu-Aotearoa-HTML-CSS#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0"
+    "@11ty/eleventy": "^1.0.0",
+    "@quasibit/eleventy-plugin-schema": "^1.9.1",
+    "markdown-it-anchor": "^8.4.1"
   }
 }
