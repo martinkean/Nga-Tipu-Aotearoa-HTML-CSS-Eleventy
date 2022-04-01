@@ -2,11 +2,14 @@
 title: Kauri
 author: Martin Kean
 date: 2022-03-08
-tag: plants
-image: /images/tane-mahuta-hero.jpg
+image: https://res.cloudinary.com/dnf1xnzg3/image/upload/ar_1:1,c_crop/v1648777805/ADT1-Web/kauri-waipoua-base-1200_ftyi2b.webp
 imageAlt: Tane Mahuta. Image - Scott Benjamin
-description: Kauri are among the world's mightiest trees, growing to over 50 m tall, with trunk girths up to 16 m, and living for over 2,000 years.
-introduction: Kauri dieback disease is a relatively new threat, but we can help reduce its spread by being careful and following the signs when visiting kauri forests.
+description: Kauri are among the world's mightiest trees, growing to over 50 m
+  tall, with trunk girths up to 16 m, and living for over 2,000 years.
+introduction: Kauri dieback disease is a relatively new threat, but we can help
+  reduce its spread by being careful and following the signs when visiting kauri
+  forests.
+tag: plants
 ---
 
 ## Kauri were prolific in the past
