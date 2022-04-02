@@ -299,7 +299,7 @@
         margin-top: 1rem;
         cursor: pointer;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
-        transition: all .3s;
+        transition: background-color 0.3s ease;
         border-radius: 5px;
       }
       .readmore-button:hover {
