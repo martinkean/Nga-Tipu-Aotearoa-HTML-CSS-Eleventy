@@ -68,8 +68,10 @@ eleventyComputed:
   <title>{{ title }}</title>
 </head>
 
-<body style="visibility: hidden;">
+<body style="visibility: hidden;">  <!-- These two lines (here and below) stop Flash of Unstyled Content = FOUC -->
   <script>0</script>
+
+
     <!-- These next four lines below are the whole page! -->
     <main>
         {% include 'header.njk' %}
