@@ -97,9 +97,9 @@
     *,
     *::before,
     *::after {
-      animation-duration: 0.01ms !important;
+      animation-duration: 0ms !important;
       animation-iteration-count: 1 !important;
-      transition-duration: 0.01ms !important;
+      transition-duration: 0ms !important;
       scroll-behavior: auto !important;
     }
   }
@@ -146,7 +146,6 @@
       background-color: var(--light-green-background);
       padding: 2rem 0 2rem 2rem;
       min-height: 7em;
-      transition: ease 0.4s;
     }
 
     .header--scrolled {
