@@ -13,7 +13,6 @@ eleventyComputed:
     image:
       src: "{% if image %}{{ metadata.url }}{{ image }}{% endif %}"
 ---
-
 <!DOCTYPE html>
 <html dir="ltr" lang="mi">
 
@@ -69,7 +68,8 @@ eleventyComputed:
   <title>{{ title }}</title>
 </head>
 
-<body>
+<body style="visibility: hidden;">
+  <script>0</script>
     <!-- These next four lines below are the whole page! -->
     <main>
         {% include 'header.njk' %}
@@ -100,6 +100,20 @@ eleventyComputed:
           }
         });
       }
+    </script>
+
+    <script>
+        // Helper function
+        let domReady = (cb) => {
+          document.readyState === 'interactive' || document.readyState === 'complete'
+            ? cb()
+            : document.addEventListener('DOMContentLoaded', cb);
+        };
+
+        domReady(() => {
+          // Display body when DOM is loaded
+          document.body.style.visibility = 'visible';
+        });
     </script>
 
 </body>
