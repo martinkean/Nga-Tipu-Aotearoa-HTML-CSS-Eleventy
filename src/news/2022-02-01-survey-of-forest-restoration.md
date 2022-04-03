@@ -2,8 +2,7 @@
 title: Survey of Actual Forest Restoration Costs
 author: Martin Kean
 date: 2022-02-01
-tags:
-  - news
+tags: news
 image: /images/forest-restoration.jpg
 imageAlt: Community planting project at Bushy Point, Southland. Photo - Jesse Bythell
 newsIntro: Te Uru Rākau – New Zealand Forest Service has commissioned Forbes
