@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html dir="ltr" lang="mi">
 
 <head>
@@ -75,20 +75,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Font Awesome - icons -->
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&display=swap" as="font" type="font/format" crossorigin>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- my css -->
   <link rel="preload" href="/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/style.css"></noscript>
+  <link rel="stylesheet" href="/style.css">
 
   <!-- Site Title - the appears in your browser tab -->
   <title>About</title>
 </head>
 
-<body style="visibility: hidden;">  <!-- These two lines (here and below) stop Flash of Unstyled Content = FOUC -->
-  <script>0</script>
-
+<body>
 
     <!-- These next four lines below are the whole page! -->
     <main>
@@ -200,14 +197,14 @@
 
     <!-- This bit of Javascript helps with the responsive Nav menu -->
     <script>
-    function toggleMenu() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-        x.className += " responsive";
-        } else {
-        x.className = "topnav";
-        }
-    }
+      function toggleMenu() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+          x.className += " responsive";
+          } else {
+          x.className = "topnav";
+          }
+      }
     </script>
 
     <!-- This bit of Javascript helps with Netlify Identity for the CMS -->
@@ -221,20 +218,6 @@
           }
         });
       }
-    </script>
-
-    <script>
-        // Helper function
-        let domReady = (cb) => {
-          document.readyState === 'interactive' || document.readyState === 'complete'
-            ? cb()
-            : document.addEventListener('DOMContentLoaded', cb);
-        };
-
-        domReady(() => {
-          // Display body when DOM is loaded
-          document.body.style.visibility = 'visible';
-        });
     </script>
 
 </body>
