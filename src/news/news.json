@@ -1,4 +1,4 @@
 {
-    "layout": "news-page.njk",
+    "layout": "news-article.njk",
     "tags": "news"
 }

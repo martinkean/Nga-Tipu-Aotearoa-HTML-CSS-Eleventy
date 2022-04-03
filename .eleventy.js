@@ -9,9 +9,6 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./src/images');
     eleventyConfig.addPassthroughCopy('./src/admin');
 
-    // eleventyConfig.addPlugin(pluginRss);
-    // eleventyConfig.addPlugin(pluginSyntaxHighlight);
-    // eleventyConfig.addPlugin(pluginNavigation);
     eleventyConfig.addPlugin(schema);
 
     eleventyConfig.addFilter("postDate", (dateObj) => {

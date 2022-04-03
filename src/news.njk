@@ -12,7 +12,7 @@ layout: 'base.njk'
     <section role="list" class="featured-news-grid">
 
     {%- for post in collections.featured | reverse -%}
-      {% include 'featured-news-snippet.njk' %}
+      {% include 'featured-news-card.njk' %}
     {%- endfor -%}
 
     <section>
@@ -27,7 +27,7 @@ layout: 'base.njk'
     <section class="news__grid">
 
       {%- for post in collections.news | reverse -%}
-        {% include 'news-snippet.njk' %}
+        {% include 'news-card.njk' %}
       {%- endfor -%}
 
     </section>
