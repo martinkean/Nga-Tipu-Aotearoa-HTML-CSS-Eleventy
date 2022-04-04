@@ -129,8 +129,8 @@
   }
 
   body {
-      font-display: swap;
       font-family: 'Poppins', sans-serif;
+      font-display: swap;
       color: var(--charcoal);
       background-color: var(--beige-page-background);
   }
