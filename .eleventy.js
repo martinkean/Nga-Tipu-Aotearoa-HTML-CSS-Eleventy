@@ -5,7 +5,7 @@ const schema = require("@quasibit/eleventy-plugin-schema");
 
 module.exports = function(eleventyConfig) {
 
-    eleventyConfig.addPassthroughCopy('./src/style.css');
+    eleventyConfig.addPassthroughCopy('./src/style_min.css');
     eleventyConfig.addPassthroughCopy('./src/images');
     eleventyConfig.addPassthroughCopy('./src/admin');
 
