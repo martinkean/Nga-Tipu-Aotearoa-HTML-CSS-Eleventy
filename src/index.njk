@@ -23,7 +23,7 @@ layout: 'base.njk'
     GRID LAYOUT FOR THE PLANTS CARDS ON THE HOME PAGE
   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
 
-  <section role="list" class="plants__grid">
+  <section class="plants__grid" aria-label=">Plants of New Zealand displayed in a grid">
       <h2 style="display: none;">Plants of New Zealand displayed in a grid</h2> <!-- For WAI ARIA -->
 
       {%- for post in collections.plants | reverse -%}
