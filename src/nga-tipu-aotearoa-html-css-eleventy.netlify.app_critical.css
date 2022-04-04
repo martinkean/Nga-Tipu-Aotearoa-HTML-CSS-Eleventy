@@ -1,0 +1,313 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLDz8V1s.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v19/pxiEyp8kv8JHgFVrFJA.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLGT9V1s.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLEj6V1s.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLCz7V1s.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLDD4V1s.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-bars:before {
+  content: "\f0c9";
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  --dark-green-text: #13381f;
+  --light-green-background: #f1f8f5;
+  --page-card-background: #b2d8c7;
+  --beige-page-background: #edece2;
+  --slide-out-menu-background: rgba(233, 240, 234, 0.93);
+  --footer-background: #173826;
+  --off-white: #fcfcf5;
+  --description-text: #8c8e8d;
+  --light-silver: #fcfcfa;
+  --charcoal: #1d1d1b;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-display: swap;
+  color: var(--charcoal);
+  background-color: var(--beige-page-background);
+}
+
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: var(--light-green-background);
+  padding: 2rem 0 2rem 2rem;
+  min-height: 7em;
+}
+
+header h1 a {
+  color: var(--dark-green-text);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.topnav {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1rem;
+}
+
+.topnav a {
+  color: var(--dark-green-text);
+  text-decoration: none;
+  font-size: 1.15em;
+}
+
+.topnav a.current-page {
+  font-weight: 600;
+}
+
+.icon {
+  position: absolute;
+  display: none;
+  color: var(--dark-green-text);
+  font-size: 2em;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 40em) {
+  header {
+    padding: 2rem 0 2rem 1rem;
+    height: 4em;
+  }
+
+  .topnav {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.7em;
+  }
+
+  .topnav a {
+    display: none;
+  }
+
+  .icon {
+    float: right;
+    display: block;
+    top: 1em;
+    right: 1em;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  header {
+    padding: 2rem 0 2rem 1rem;
+    height: 4em;
+  }
+
+  .icon {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
+}
+
+@media screen and (max-width: 26em) {
+  header h1 {
+    max-width: 300px;
+    line-height: 100%;
+  }
+
+  header {
+    height: 7.7em;
+    padding-bottom: 0;
+  }
+}
+
+main {
+  max-width: 1200px;
+  background-color: var(--light-green-background);
+  margin: 0 auto;
+}
+
+.introduction {
+  background-color: var(--off-white);
+  padding: 2rem;
+}
+
+.introduction h2 {
+  color: var(--dark-green-text);
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.introduction p {
+  color: var(--dark-green-text);
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.readmore-button {
+  background-color: #13632e;
+  border: none;
+  color: var(--off-white);
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  will-change: transform;
+  transform: translateZ(0);
+  border-radius: 5px;
+}
+
+@supports (display: grid) {
+  .plants__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    grid-gap: 2rem;
+    margin: 2rem;
+  }
+}
+
+.plant__item {
+  text-align: center;
+  background-color: var(--light-green-background);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 10px;
+  padding: 2rem 2rem 1.4rem 2rem;
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+.plant__item img {
+  width: 100%;
+  padding: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.plant__name {
+  margin-top: .8rem;
+  margin-bottom: .4rem;
+}
+
+.plant__name a {
+  color: var(--dark-green-text);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.plant__desc {
+  color: var(--description-text);
+  font-weight: 400;
+  font-size: .7rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: var(--footer-background);
+  padding: 2rem;
+  color: var(--off-white);
+}
+
+footer p {
+  font-size: .8rem;
+}
