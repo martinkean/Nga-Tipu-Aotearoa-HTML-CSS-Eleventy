@@ -3,10 +3,17 @@ title: The February 2022 issue of Trilepidea is now available
 author: Martin Kean
 date: 2022-02-15
 tags: news
-image: /images/flax.jpg
+image: https://res.cloudinary.com/dnf1xnzg3/image/upload/ar_1:1,c_crop,w_430/v1649043559/ADT1-Web/flax_eq63wn.webp
 imageAlt: News article
-newsIntro: News article place holder description text. News article place holder description text. News article place holder description text. News article place holder description text.
-newsText: Read about chasing the Mt Peel edelweiss (Leucogenes tarahaoa), enhanced flora search on the NZPCN website, Plant of the Month Euchiton ensifer, conference updates and conference sponsors, vegetation of Spit Islands and associated beaches in southwest Fiordland, impact of recent fires at Kaimaumau and Lake Ohia. old man’s beard free Wellington and upcoming events
+newsIntro: News article place holder description text. News article place holder
+  description text. News article place holder description text. News article
+  place holder description text.
+newsText: Read about chasing the Mt Peel edelweiss (Leucogenes tarahaoa),
+  enhanced flora search on the NZPCN website, Plant of the Month Euchiton
+  ensifer, conference updates and conference sponsors, vegetation of Spit
+  Islands and associated beaches in southwest Fiordland, impact of recent fires
+  at Kaimaumau and Lake Ohia. old man’s beard free Wellington and upcoming
+  events
 ---
 
 ## Enhanced flora search feature
