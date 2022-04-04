@@ -6,11 +6,11 @@ layout: 'base.njk'
     SINGLE NEWS ARTICLE - IN FULL
   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
 
-  <article class="newspage__card">
+  <article class="newspage__card" aria-label="This is a news snippet">
       <h2 class="newspage__title">{{ title }}</h2>
 
-      <figure class="newspage__card__image">
-        <img  src="{{ image }}" alt="{{ imageAlt }}">
+      <figure class="newspage__card__image" role="img" aria-label="{{ imageAlt }}">
+        <img src="{{ image }}" alt="{{ imageAlt }}">
         <figcaption>
             {{ imageAlt }}
         </figcaption>

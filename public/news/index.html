@@ -96,8 +96,8 @@
         = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
 
     <header>
-      <h1><a href="/">Ng&amacr; Tipu Aotearoa</a></h1>
-      <nav class="topnav" id="myTopnav">
+      <h1><a href="/" lang="mi">Ng&amacr; Tipu Aotearoa</a></h1>
+      <nav class="topnav" id="myTopnav" role="navigation" aria-label="Main menu">
         <a href="/" class="current-page">Home</a>
         <a href="/news">News</a>
         <a href="/contact">Contact</a>
@@ -112,17 +112,17 @@
     FEATURED NEWS ARTICLES
   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
 
-  <div class="featured-news">
+  <div class="featured-news" aria-label=">Featured news items">
     <h2>Featured news</h2>
-    <section role="list" class="featured-news-grid"><!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+    <section role="grid" class="featured-news-grid"><!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
     FEATURED NEWS ARTICLE
 
     This is the featured article that appears at the top of te Nws Page, 'news.njk'
     This snippet is 'included' in 'news.njk' at line 15
     = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
 
-        <div class="news__item__image">
-            <a href="/news/2022-02-17-more-news/"><img src="https://res.cloudinary.com/dnf1xnzg3/image/upload/ar_1:1,c_crop/v1648420484/ADT1-Web/cordyline-banksii_pl0pms.webp" alt="Cordyline Banksii"></a>
+        <div class="news__item__image" role="article" aria-label="This is a featured news item">
+            <a href="/news/2022-02-17-more-news/"><img src="https://res.cloudinary.com/dnf1xnzg3/image/upload/ar_1:1,c_crop/v1648420484/ADT1-Web/cordyline-banksii_pl0pms.webp" alt="Cordyline Banksii" role="img" aria-label="Cordyline Banksii"></a>
         </div>
         <div class="featured-news__RHblock">
             <h2 class="news__title"><a href="/news/2022-02-17-more-news/">Notice of New Threat Listing for Vascular Plants</a></h2>
@@ -138,11 +138,11 @@
     NEWS PAGE ARTICLES
   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
 
-  <div class="news__articles">
+  <div class="news__articles" aria-label="News articles">
     <h2>News</h2>
     <h3>Recent news items below.</h3>
-    <section class="news__grid"><article class="news__item">
-    <div class="news__item__image">
+    <section role="grid" class="news__grid"><article class="news__item" aria-label="This is an individual news item">
+    <div class="news__item__image" role="img" aria-label="Cordyline Banksii">
         <a href="/news/2022-02-17-more-news/"><img src="https://res.cloudinary.com/dnf1xnzg3/image/upload/ar_1:1,c_crop/v1648420484/ADT1-Web/cordyline-banksii_pl0pms.webp" alt="Cordyline Banksii"></a>
     </div>
     <h2 class="news__title"><a href="/news/2022-02-17-more-news/">Notice of New Threat Listing for Vascular Plants</a></h2>
@@ -151,8 +151,8 @@
     <a href="/news/2022-02-17-more-news/" class="readmore-button">
         Read more &hellip;
     </a>
-</article><article class="news__item">
-    <div class="news__item__image">
+</article><article class="news__item" aria-label="This is an individual news item">
+    <div class="news__item__image" role="img" aria-label="News article">
         <a href="/news/2022-02-15-my-first-news-article/"><img src="/images/flax.jpg" alt="News article"></a>
     </div>
     <h2 class="news__title"><a href="/news/2022-02-15-my-first-news-article/">The February 2022 issue of Trilepidea is now available</a></h2>
@@ -161,8 +161,8 @@
     <a href="/news/2022-02-15-my-first-news-article/" class="readmore-button">
         Read more &hellip;
     </a>
-</article><article class="news__item">
-    <div class="news__item__image">
+</article><article class="news__item" aria-label="This is an individual news item">
+    <div class="news__item__image" role="img" aria-label="Leptinella Serrulata">
         <a href="/news/2022-02-07-favourite-plant-2021/"><img src="/images/leptinella_serrulata-_waihora_scientific_reserve-kaitorete_spit.jpg" alt="Leptinella Serrulata"></a>
     </div>
     <h2 class="news__title"><a href="/news/2022-02-07-favourite-plant-2021/">2021 Favourite Plant Vote candidate profile - Leptinella serrulata</a></h2>
@@ -171,8 +171,8 @@
     <a href="/news/2022-02-07-favourite-plant-2021/" class="readmore-button">
         Read more &hellip;
     </a>
-</article><article class="news__item">
-    <div class="news__item__image">
+</article><article class="news__item" aria-label="This is an individual news item">
+    <div class="news__item__image" role="img" aria-label="Community planting project at Bushy Point, Southland. Photo - Jesse Bythell">
         <a href="/news/2022-02-01-survey-of-forest-restoration/"><img src="/images/forest-restoration.jpg" alt="Community planting project at Bushy Point, Southland. Photo - Jesse Bythell"></a>
     </div>
     <h2 class="news__title"><a href="/news/2022-02-01-survey-of-forest-restoration/">Survey of Actual Forest Restoration Costs</a></h2>
@@ -199,7 +199,7 @@
         <h2 class="footer__menu__heading">
           Identification
         </h2>
-        <ul class="footer__menu__list">
+        <ul class="footer__menu__list" role="navigation" aria-label="Footer menu">
           <li><a href="#">What is this bug?</a></li>
           <li><a href="#">Invertebrates</a></li>
           <li><a href="#">Plants</a></li>
@@ -211,7 +211,7 @@
         <h2 class="footer__menu__heading">
           Resources
         </h2>
-        <ul class="footer__menu__list">
+        <ul class="footer__menu__list" role="navigation" aria-label="Footer menu">
           <li><a href="#">Collections</a></li>
           <li><a href="#">Databases</a></li>
           <li><a href="#">Mapping</a></li>
@@ -222,7 +222,7 @@
         <h2 class="footer__menu__heading">
           Education
         </h2>
-        <ul class="footer__menu__list">
+        <ul class="footer__menu__list" role="navigation" aria-label="Footer menu">
           <li><a href="#">Teaching</a></li>
           <li><a href="#">Learning</a></li>
         </ul>

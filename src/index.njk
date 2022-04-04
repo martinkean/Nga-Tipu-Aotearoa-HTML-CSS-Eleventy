@@ -7,7 +7,7 @@ layout: 'base.njk'
     INTRODUCTION OR HEADER BANNER
   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
 
-  <article class="introduction">
+  <article class="introduction" role="banner">
     <h2>
       Ng&amacr; Tipu Aotearoa &ndash; New Zealand Plants
     </h2>
@@ -23,7 +23,7 @@ layout: 'base.njk'
     GRID LAYOUT FOR THE PLANTS CARDS ON THE HOME PAGE
   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
 
-  <section role="list" class="plants__grid">
+  <section role="grid" class="plants__grid">
 
       {%- for post in collections.plants | reverse -%}
 

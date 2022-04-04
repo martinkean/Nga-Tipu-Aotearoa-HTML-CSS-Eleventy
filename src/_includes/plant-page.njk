@@ -6,10 +6,10 @@ layout: 'base.njk'
     ARTICLE
   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
 
-  <article class="plantpage__card">
+  <article class="plantpage__card" aria-label="This is a plant item">
       <h2 class="plantpage__title">{{ title }}</h2>
 
-      <figure class="plantpage__card__image">
+      <figure class="plantpage__card__image"  role="img" aria-label="{{ imageAlt }}">
         <img  src="{{ image }}" alt="{{ imageAlt }}">
         <figcaption>
             {{ imageAlt }}

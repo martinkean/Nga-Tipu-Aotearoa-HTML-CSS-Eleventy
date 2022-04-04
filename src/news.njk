@@ -7,9 +7,9 @@ layout: 'base.njk'
     FEATURED NEWS ARTICLES
   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
 
-  <div class="featured-news">
+  <div class="featured-news" aria-label=">Featured news items">
     <h2>Featured news</h2>
-    <section role="list" class="featured-news-grid">
+    <section role="grid" class="featured-news-grid">
 
     {%- for post in collections.featured | reverse -%}
       {% include 'featured-news-card.njk' %}
@@ -21,10 +21,10 @@ layout: 'base.njk'
     NEWS PAGE ARTICLES
   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
 
-  <div class="news__articles">
+  <div class="news__articles" aria-label="News articles">
     <h2>News</h2>
     <h3>Recent news items below.</h3>
-    <section class="news__grid">
+    <section role="grid" class="news__grid">
 
       {%- for post in collections.news | reverse -%}
         {% include 'news-card.njk' %}
