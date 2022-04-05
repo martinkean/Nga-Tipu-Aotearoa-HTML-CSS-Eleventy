@@ -3,7 +3,7 @@ title: Survey of Actual Forest Restoration Costs
 author: Martin Kean
 date: 2022-02-01
 tags: news
-image: /images/forest-restoration.jpg
+image: https://res.cloudinary.com/dnf1xnzg3/image/upload/ar_1:1,c_crop/v1649043559/ADT1-Web/flax_eq63wn.webp
 imageAlt: Community planting project at Bushy Point, Southland. Photo - Jesse Bythell
 newsIntro: Te Uru Rākau – New Zealand Forest Service has commissioned Forbes
   Ecology Limited to survey of the actual costs associated with native forest
