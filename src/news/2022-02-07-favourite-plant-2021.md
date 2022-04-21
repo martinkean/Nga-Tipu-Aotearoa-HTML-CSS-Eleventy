@@ -3,10 +3,16 @@ title: 2021 Favourite Plant Vote candidate profile - Leptinella serrulata
 author: Martin Kean
 date: 2022-02-07
 tags: news
-image: /images/leptinella_serrulata-_waihora_scientific_reserve-kaitorete_spit.jpg
+image: https://res.cloudinary.com/dnf1xnzg3/image/upload/ar_1:1,c_crop/v1648420484/ADT1-Web/cordyline-banksii_pl0pms.webp
 imageAlt: Leptinella Serrulata
-newsIntro: The 2021 Favourite Native Plant vote will open on 1 October and run for 1 month. In the lead up to the return of this popular vote, NZPCN committee members are profiling some of the plants which they feel need a little more love. For the full article with all the images see issue 210 of Trilepidea.
-newsText: Contributor - Dr Melissa Hutchison, Ecological consultant and NZPCN committee member, lover of lichens and dryland ecosystems. Favourite plant candidate - Leptinella serrulata, dryland button daisy.
+newsIntro: The 2021 Favourite Native Plant vote will open on 1 October and run
+  for 1 month. In the lead up to the return of this popular vote, NZPCN
+  committee members are profiling some of the plants which they feel need a
+  little more love. For the full article with all the images see issue 210 of
+  Trilepidea.
+newsText: Contributor - Dr Melissa Hutchison, Ecological consultant and NZPCN
+  committee member, lover of lichens and dryland ecosystems. Favourite plant
+  candidate - Leptinella serrulata, dryland button daisy.
 ---
 
 ## Why I have selected this species: 
