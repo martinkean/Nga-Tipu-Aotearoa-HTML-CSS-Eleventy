@@ -1,42 +1,21 @@
 ---
-layout: news
 title: Giant discovery
-author: Martin
-date: 2023-01-12T04:33:52.251Z
-tags:
-  - news
+author: Martin Kean
+date: 2023-01-12
+tags: news
 image: https://www.forestandbird.org.nz/sites/default/files/styles/scale_width_full_column/public/2022-12/2_G_White_marvels_the_massive_Tautuku_Southern_Rata_F_Cunninghame_copy%5B1%5D.jpg?itok=WlVsU7SO
 imageAlt: Gavin White admires the massive Tautuku southern rātā. Image Francesca
   Cunninghame
-newsIntro: >-
-  "You can’t protect something if you don’t know it’s there,” is one of
+newsIntro: You can’t protect something if you don’t know it’s there,” is one of
   conservation’s truisms. It’s also the case that scientists are regularly
   discovering new species of flora and fauna in Aotearoa. In some remote areas,
-  it’s a question of “seek and ye may find”.
-
-
-  Down in the Catlins, Forest & Bird’s Tautuku Ecological Restoration team has been taking a closer look at some of the botanical delights located in their huge 6600ha project area that runs from the forested hilltops near Papatowai to the Southern Ocean.
-
-
-  And, goodness, have they come up with some wonderful floral finds recently, including a tiny Nationally Critical creeping foxglove.
-newsText: >-
-  Let’s start with the discovery of a giant southern rātā, thought to be 700
+  it’s a question of “seek and ye may find”. Down in the Catlins, Forest & Bird’s Tautuku Ecological Restoration team has been taking a closer look at some of the botanical delights located in their huge 6600ha project area that runs from the forested hilltops near Papatowai to the Southern Ocean. And, goodness, have they come up with some wonderful floral finds recently, including a tiny Nationally Critical creeping foxglove.
+newsText: Let’s start with the discovery of a giant southern rātā, thought to be 700
   years old. With a trunk diameter of just over four metres, our experts believe
   this could be the largest southern rātā in in the South Island and therefore
-  the world!
-
-
-  This possibly record-breaking Tautuku tree came to the project team’s attention in 2020 at the height of the Covid pandemic.
-
-
-  During a winter gecko survey in the Tautuku River valley, Forest & Bird’s pest control officer Gavin White and herpetologist Carey Knox stumbled across an extremely large southern rātā (*Metrosideros umbellate*).
-
-
-  It is located on conservation land in a remote part of the project area, far from any formed tracks. The forest in the immediate area contains a large number of huge rātā trees; however, this one was significantly bigger.
-
-
-  Photos and a description were sent to botanist and Forest & Bird Southland Branch stalwart Brian Rance, who works for the Department of Conservation at Murihiku. He expressed interest in viewing the huge tree and confirmed it was worth measuring.
+  the world! This possibly record-breaking Tautuku tree came to the project team’s attention in 2020 at the height of the Covid pandemic. During a winter gecko survey in the Tautuku River valley, Forest & Bird’s pest control officer Gavin White and herpetologist Carey Knox stumbled across an extremely large southern rātā (*Metrosideros umbellate*). It is located on conservation land in a remote part of the project area, far from any formed tracks. The forest in the immediate area contains a large number of huge rātā trees; however, this one was significantly bigger. Photos and a description were sent to botanist and Forest & Bird Southland Branch stalwart Brian Rance, who works for the Department of Conservation at Murihiku. He expressed interest in viewing the huge tree and confirmed it was worth measuring.
 ---
+
 Gavin and Forest & Bird’s Tautuku project manager Francesca Cunninghame returned to the site, on a wet and cold low ridge, with a suitably long measuring tape.
 
 “The whole ridgeline is full of large rātā of all angles, shapes, and sizes. They are part of the landscape,” said Francesca. “But this tree appears through the undergrowth and makes people stop in their tracks and take a second look.
