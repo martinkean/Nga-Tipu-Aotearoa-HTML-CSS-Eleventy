@@ -2,7 +2,9 @@
 title: Giant discovery
 author: Martin Kean
 date: 2023-01-12
-tags: news
+tags:
+  - news
+  - featured
 image: https://www.forestandbird.org.nz/sites/default/files/styles/scale_width_full_column/public/2022-12/2_G_White_marvels_the_massive_Tautuku_Southern_Rata_F_Cunninghame_copy%5B1%5D.jpg?itok=WlVsU7SO
 imageAlt: Gavin White admires the massive Tautuku southern rātā. Image Francesca
   Cunninghame
